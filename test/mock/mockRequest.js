@@ -7,11 +7,16 @@ exports.mockRequest = function () {
         get: function (url, callback) {
             var response = [];
             response.statusCode = 200;
-            if (reg.test(url)) {
-                fs.readFile('test/mock/page_' + reg.exec(url)[1] + '.txt', function (err, data) {
+            var responseContentByFile = function (filename, callback) {
+                fs.readFile(filename, function (err, data) {
                     response.body = data;
                     callback(null, response);
                 });
+            };
+            if (reg.test(url)) {
+                responseContentByFile('test/mock/page_' + reg.exec(url)[1] + '.txt', callback);
+            } else if (url === 'http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html') {
+                responseContentByFile('test/mock/post_1.txt', callback);
             }
             else if (url === 'http://www.cnblogs.com/htynkn_fake_name/default.html?page=1&OnlyTitle=1') {
                 response.statusCode = 404;

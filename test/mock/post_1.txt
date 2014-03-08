@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<title>使用Gradle自动发布Java Web到SAE - 夜明的孤行灯 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=gdNkSiQMyBMkpTeO1ex9qW-60UbMszQItnCUpBAT3LQ1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="http://common.cnblogs.com/Skins/BlackLowKey/style.css?id=20140110"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/100509.css?v=FKHdWkMrzhRiQrhBVN%2fgycvkvKM%3d"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/htynkn/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/htynkn/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/htynkn/wlwmanifest.xml"/>
+<script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">var currentBlogApp = 'htynkn', cb_enable_mathjax=true;</script>
+<script src="/bundles/blog-common.js?v=YE4Yf2v1HpAVZLFA45p-EjGRYWlmADxKPN4_Gi-5S9Y1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<link type="text/css" rel="Stylesheet" href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeMidnight.css" />
+<link type="text/css" rel="Stylesheet" href="http://files.cnblogs.com/htynkn/own.css"/>
+<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js"></script>
+<!--PageBeginHtml Block End-->
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/htynkn/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>
+
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/htynkn/">夜明的孤行灯</a></h1>
+<h2>有一种准则，它不是墙上贴着的，而是像空气一样无处不在的</h2>
+
+
+
+
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+
+<ul id="navList">
+<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/htynkn/">首页</a></li>
+<li><a class="menu" href="http://q.cnblogs.com/">博问</a></li>
+<li><a class="menu" href="http://home.cnblogs.com/ing/">闪存</a></li>
+<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="MyLinks1_ContactLink" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af">联系</a></li>
+<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/htynkn/rss">订阅</a>
+<!--<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/htynkn/rss"><img src="http://www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+
+
+<!--done-->
+随笔- 66&nbsp;
+文章- 2&nbsp;
+评论- 807&nbsp;
+
+
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+
+
+<!--done-->
+<div id="topics">
+	<div class = "post">
+		<h1 class = "postTitle">
+			<a id="cb_post_title_url" class="postTitle2" href="http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html">使用Gradle自动发布Java Web到SAE</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="postBody">
+			<div id="cnblogs_post_body"><p>现在像SAE这类的应用引擎已经比较多了，百度和腾讯都出了这样的东西。</p>
+<p>我很早的时候就开始用SAE，当时还为了迁就SAE学习了PHP（当时只支持PHP和另外一个什么语言）。后来SAE支持Java了，版本是6，容器是Jetty 7.4，而常用的框架也基本能跑。</p>
+<p>代码的部署使用svn，稍微有点麻烦。最近在做一个Java Web的练习，代码放在github上，每次上传到SAE很烦。项目使用Gradle管理，所以琢磨着怎么把自动发布到SAE这个事情交给Gradle来做。</p>
+<h1>流程分析</h1>
+<p>先来看一下SAE这边。</p>
+<p>建立默认版本，版本号为1。然后通过代码管理页面上传一个war包。</p>
+<p><a href="http://images.cnitblog.com/blog/267034/201401/171113569081.png"><img style="display: inline; border-width: 0px;" title="SpxImage 4" src="http://images.cnitblog.com/blog/267034/201401/171113576425.png" alt="SpxImage 4" width="311" height="265" border="0" /></a></p>
+<p>进入svn仓库看一看</p>
+<p><a href="http://images.cnitblog.com/blog/267034/201401/171113580804.png"><img style="display: inline; border-width: 0px;" title="SpxImage 5" src="http://images.cnitblog.com/blog/267034/201401/171113586583.png" alt="SpxImage 5" width="392" height="139" border="0" /></a></p>
+<p>其实就是把对应的war包放在版本号目录的根目录就可以了。</p>
+<p>而调用</p>
+<pre class="brush: bash;">gradle war
+</pre>
+<p>就可以生成war包，而文件地址通过以下方法获得</p>
+<pre class="brush: bash;">war.archivePath
+</pre>
+<p>这样就只需要checkout原有代码，然后将新的war拷贝过去，然后commit就行了。</p>
+<h1>直接调用SVN命令</h1>
+<p>Gradle有一种任务类型是Exec，可以直接在命令行调用命令。</p>
+<p>比如我们的checkout操作就可以这样</p>
+<pre class="brush: groovy;">task checkoutRepo(type:Exec) {
+  workingDir 'build/'
+  commandLine 'svn', 'checkout',repo_path,"svn"
+}</pre>
+<p>这样代码仓库就被签出到build/svn目录下了。</p>
+<p>在使用copy指令</p>
+<pre class="brush: groovy;">copy{
+    from war.archivePath
+    into "build/svn/"+numberVersion
+}
+</pre>
+<p>当然，gradle生成的war包的名字组成是</p>
+<pre class="brush: groovy;">${baseName}-${appendix}-${version}-${classifier}.${extension}
+</pre>
+<p>如果要重命名的话，可以使用rename，比如利用重命名去掉version信息</p>
+<pre class="brush: groovy;">copy {
+    from war.archivePath
+    into svnPath + "/" + numberVersion + "/"
+    rename { String fileName -&gt;
+        fileName.replace("-" + version, '')
+    }
+}</pre>
+<p>然后再次提交</p>
+<pre class="brush: groovy;">workingDir 'build/svn'
+
+commandLine 'svn', 'commit', '-m',"Built By Gradle in"+new Date()
+</pre>
+<p>为了方便调试还可以导出命令运行的输出，提交部分的任务如下</p>
+<pre class="brush: groovy;">task commitWarToSae(type:Exec) {
+  workingDir 'build/svn'
+  commandLine 'svn', 'commit', '-m',"Built By Gradle in"+new Date()
+
+  standardOutput = new ByteArrayOutputStream()
+
+  ext.output = {
+    return standardOutput.toString()
+  }
+}
+
+</pre>
+<p>这样勉强可以完成任务，但是问题是我的运行环境不一定包含了svn。我平时用的也比较少，不想安装它。这样只有使用其他方法了。</p>
+<h1>在Gradle中调用SVNKit</h1>
+<p>SVNKit 是一个纯 Java 的 SVN 客户端库,使用 SVNKit 无需安装任何 SVN 的客户端,支持各种操作系统。使用它一方面不需要考虑安装问题，另一方面SVNKit在maven仓库中有，不需要手动管理，最新版本为<a href="http://mvnrepository.com/artifact/org.tmatesoft.svnkit/svnkit/1.7.8">1.7.8</a>。</p>
+<p>首先在buildscript中配置SVNKit依赖</p>
+<pre class="brush: groovy;">buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath(
+                'org.tmatesoft.svnkit:svnkit:1.7.8',
+                'org.tmatesoft.svnkit:svnkit-cli:1.7.8'
+        )
+    }
+}&nbsp;</pre>
+<p>然后引用cli中的SVN，这样就可以直接调用程序的方法。</p>
+<pre class="brush: java;">import org.tmatesoft.svn.cli.SVN;
+</pre>
+<p>调用时使用</p>
+<pre class="brush: java;">SVN.main(String[] args)
+</pre>
+<p>这是可以直接将上文的调用svn的地方全部改为调用SVN.main，但是这之前还有一个问题。</p>
+<p>SVN.main实质上只有一句话，调用了svn目录下的SVN类，而这个类继承了AbstractSVNLauncher。而AbstractSVNLauncher的<a href="http://svn.svnkit.com/repos/svnkit/trunk/svnkit-cli/src/main/java/org/tmatesoft/svn/cli/AbstractSVNLauncher.java">代码</a>中包含了错误处理</p>
+<pre class="brush: java;">public void failure() {
+    setCompleted();
+    try {
+        System.exit(1);
+    } catch (SecurityException se) {
+
+    }
+}
+
+public void success() {
+    setCompleted();
+    try {
+        System.exit(0);
+    } catch (SecurityException se) {
+
+    }
+}
+</pre>
+<p>对于System.exit()的调用明显是我们不希望的，即使SVNKit的运行出现了错误，我们依然期望其他任务继续运行。</p>
+<p>通过Java的SecurityManager来达到目的</p>
+<pre class="brush: java;">def _disableSystemExitCall = {
+    System.setSecurityManager(
+            new SecurityManager() {
+                @Override
+                public void checkPermission(java.security.Permission perm) {}
+
+                @Override
+                public void checkExit(int status) { throw new SecurityException(); }
+            }
+    );
+};
+
+def _enableSystemExitCall = { System.setSecurityManager(null); };
+
+def doSvn = { String... aSvnArgs -&gt;
+    _disableSystemExitCall();
+    try {
+        SVN.main(aSvnArgs as String[]);
+    } finally {
+        _enableSystemExitCall();
+    }
+};
+</pre>
+<p>配置完成了，先来测试一下帮助信息的显示</p>
+<pre class="brush: java;">task('showSvnHelp') &lt;&lt; {
+    doSvn("help")
+}</pre>
+<p>运行</p>
+<pre class="brush: bash;">gradle showSvnHelp
+</pre>
+<p>可以看到效果。</p>
+<p>剩下的事情就简单了，把所有事情放到一个新的任务中去，命名为uploadWarToSae</p>
+<pre class="brush: groovy;">task('uploadWarToSae') &lt;&lt; {
+    ext {
+            repo = YOUR_REPO_PATH
+            username = YOUR_USER_NAME
+            password = YOUR_PASSWORD
+            numberVersion = YOUR_NUMBER_VERSION
+            svnPath = 'build/svn'
+    }
+
+    delete(svnPath)
+
+    doSvn("checkout", repo, svnPath, "--username", username, "--password", password)
+
+    copy {
+        from war.archivePath
+        into svnPath + "/" + numberVersion + "/"
+        rename { String fileName -&gt;
+            fileName.replace("-" + version, '')
+        }
+    }
+
+    doSvn("commit", "-m", "Built By Gradle in" + new Date(), "--username", username, "--password", password, svnPath)
+}
+</pre>
+<p>试着运行看看，你可以会遇到一下问题</p>
+<ul>
+<li>Server certificate verification failed</li>
+<li>Fingerprint: *** (R)eject, accept (t)emporarily or accept (p)ermanently?</li>
+<li>failed: SSL error: certificate verify failed</li>
+</ul>
+<p>从svn的帮助中可以找到这几个指令：--no-auth-cache --non-interactive --trust-server-cert</p>
+<p>将它们加入doSvn中（其实也可以在调用的时候添加）</p>
+<pre class="brush: groovy;">def doSvn = { String... aSvnArgs -&gt;
+    _disableSystemExitCall();
+    List&lt;String&gt; cmds = aSvnArgs as LinkedList&lt;String&gt;;
+    cmds.add("--no-auth-cache");
+    cmds.add("--non-interactive");
+    cmds.add("--trust-server-cert")
+    try {
+        SVN.main(cmds as String[]);
+    } finally {
+        _enableSystemExitCall();
+    }
+};
+</pre>
+<p>这样就没有问题了。</p>
+<p>如果你觉得用户名和密码直接写入build.gradle不安全，你也可以考虑将私密信息写入gradle.properties中去。</p>
+<h1>集成Travis</h1>
+<p>Travis是一个和Github集成的非常好的CI。使用它你需要在项目中配置.travis.yml文件。</p>
+<p>我希望让travis自动将每次的更改打包后上传到SAE中，当然直接调用</p>
+<pre class="brush: bash;">gradle uploadWarToSae
+</pre>
+<p>就行了。但是私密信息写在哪里？</p>
+<p>Travis提供了利用RSA密匙加密的方法。具体细节参考文末链接。</p>
+<pre class="brush: bash;">travis encrypt -a env.global USERNAME=username PASSWORD=password
+</pre>
+<p>这样就可以在命令行中调用了，比如</p>
+<pre class="brush: bash;">gradle uploadWarToSae -Pusername=$USERNAME -Ppassword=$PASSWORD
+</pre>
+<p>然后改造uploadWarToSae方法，让其可以接受参数。</p>
+<pre class="brush: groovy;">task('uploadWarToSae') &lt;&lt; {
+    if (project.hasProperty('username') &amp;&amp; project.hasProperty("password")) {
+        ext {
+            repo = 'https://svn.sinaapp.com/blackjack/'
+            numberVersion = 1
+            svnPath = 'build/svn'
+        }
+        delete(svnPath)
+        doSvn("checkout", repo, svnPath, "--username", username, "--password", password)
+
+        copy {
+            from war.archivePath
+            into svnPath + "/" + numberVersion + "/"
+            rename { String fileName -&gt;
+                fileName.replace("-" + version, '')
+            }
+        }
+
+        doSvn("commit", "-m", "Built in" + new Date(), "--username", username, "--password", password, svnPath)
+    } else {
+        throw new InvalidUserDataException("没有提供sae的安全邮箱和密码，部署失败")
+    }
+}
+</pre>
+<p>运行效果如下：</p>
+<p><a href="http://images.cnitblog.com/blog/267034/201401/171158529087.png"><img style="display: inline; border: 0px;" title="SpxImage 6" src="http://images.cnitblog.com/blog/267034/201401/171158536422.png" alt="SpxImage 6" width="317" height="56" border="0" /></a></p>
+<p><img src="http://images.cnitblog.com/blog/267034/201401/171200223612.png" alt="" /></p>
+<h1>结语</h1>
+<p>如果使用的是BAE的话，官方提供了maven的部署插件的&hellip;而SAE不知道有没有提供，反正从官方文档中没有看到。</p>
+<p>附上几个参考地址：</p>
+<p><a href="http://svn.svnkit.com/repos/svnkit/trunk/svnkit-cli/src/main/java/org/tmatesoft/svn/cli/AbstractSVNLauncher.java">AbstractSVNLauncher.java</a></p>
+<p><a href="http://stackoverflow.com/questions/5401281/preventing-system-exit-from-api">Preventing System.exit() from API</a></p>
+<p><a href="http://jroller.com/ethdsy/entry/disabling_system_exit">disabling System.exit()</a></p>
+<p><a href="http://about.travis-ci.org/docs/user/encryption-keys/">encryption-keys</a></p></div><div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+<div id="blog_post_info">
+</div>
+<div class="clear"></div>
+<div id="post_next_prev"></div>
+</div>
+
+
+		</div>
+		<div class = "postDesc">posted @ <span id="post-date">2014-01-17 11:59</span> <a href='http://www.cnblogs.com/htynkn/'>夜明的孤行灯</a> 阅读(<span id="post_view_count">...</span>) 评论(<span id="post_comment_count">...</span>)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=3523713" rel="nofollow">编辑</a> <a href="#" onclick="AddToWz(3523713);return false;">收藏</a></div>
+	</div>
+	<script type="text/javascript">var allowComments=true,isLogined=false,cb_blogId=100509,cb_entryId=3523713,cb_blogApp=currentBlogApp,cb_blogUserGuid='cb44f5da-3f25-e011-ac81-842b2b196315',cb_entryCreatedDate='2014/1/17 11:59:00';loadViewCount(cb_entryId);</script>
+
+</div><!--end: topics 文章、评论容器-->
+<a name="!comments"></a><div id="blog-comments-placeholder"></div><script type="text/javascript">var commentManager = new blogCommentManager();commentManager.renderComments(0);</script>
+<div id="comment_form" class="commentform">
+<a name="commentform"></a>
+<div id="divCommentShow"></div>
+<div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" id="lnk_RefreshComments" onclick="return RefreshCommentList();">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+<div id="comment_form_container"></div>
+<div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+<div id="site_nav_under"><a href="http://www.cnblogs.com/" target="_blank" title="程序员的网上家园">博客园首页</a><a href="http://q.cnblogs.com/" target="_blank" title="程序员问答社区">博问</a><a href="http://news.cnblogs.com/" target="_blank" title="IT新闻">新闻</a><a href="http://home.cnblogs.com/ing/" target="_blank">闪存</a><a href="http://job.cnblogs.com/" target="_blank">程序员招聘</a><a href="http://kb.cnblogs.com/" target="_blank">知识库</a></div>
+<div id="ad_under_post_holder"></div>
+<script type="text/javascript">
+var enableGoogleAd = true;
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+fixPostBodyFormat();
+loadAdUnderPost();
+</script>
+<div id="HistoryToday" class="c_ad_block"></div>
+<script type="text/javascript">
+loadBlogSignature();
+LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate);
+GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+</script>
+<script type="text/javascript">
+    $.ajax({ url: 'http://counter.cnblogs.com/blog/post/' + cb_entryId, type: 'get', dataType: 'script', cache: true });
+</script>
+</div>
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+
+<!--done-->
+Copyright &copy;2014 夜明的孤行灯
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+<!--PageEndHtml Block Begin-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F813fdd999bef0f68fc9d5a0145973e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {
+data_track_clickback:'true',
+shareImg:{
+        "showType":"ALL",
+"divname":"cnblogs_post_body"
+}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?move=0&amp;uid=1542415" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div class="returnTop" title="嗖的就上去了！">
+  <span class="s"></span>
+  <span class="b"></span>
+  返回顶部
+</div>
+<style>
+.returnTop {
+    position: fixed;
+    _position: absolute;
+    right: 20px;
+    bottom: 40px;
+    _bottom: auto;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2E5FB7;
+    border-radius:4px;
+    background: #fff;
+    box-shadow: 0 0 5px #F5F5F5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.returnTop .s {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent transparent #2E65B7;
+    border-style: dashed dashed solid;
+}
+.returnTop .b {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #2E5FB7;
+}
+</style>
+<script>
+$(function(){
+  // 给 window 对象绑定 scroll 事件
+  $(window).bind("scroll", function(){
+
+      // 获取网页文档对象滚动条的垂直偏移
+      var scrollTopNum = $(document).scrollTop(),
+          // 获取浏览器当前窗口的高度
+          winHeight = $(window).height(),
+          returnTop = $("div.returnTop");
+
+      // 滚动条的垂直偏移大于 0 时显示，反之隐藏
+      (scrollTopNum > 0) ? returnTop.fadeIn("fast") : returnTop.fadeOut("fast");
+
+      // 给 IE6 定位
+      if (!-[1,]&&!window.XMLHttpRequest) {
+          returnTop.css("top", scrollTopNum + winHeight - 200);
+      }
+
+  });
+
+  // 点击按钮后，滚动条的垂直方向的值逐渐变为0，也就是滑动向上的效果
+  $("div.returnTop").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 100);
+  });
+
+});
+</script>
+<!--PageEndHtml Block End-->
+</body>
+</html>

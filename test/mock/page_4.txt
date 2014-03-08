@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<title>夜明的孤行灯 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=gdNkSiQMyBMkpTeO1ex9qW-60UbMszQItnCUpBAT3LQ1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="http://common.cnblogs.com/Skins/BlackLowKey/style.css?id=20140110"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/100509.css?v=FKHdWkMrzhRiQrhBVN%2fgycvkvKM%3d"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/htynkn/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/htynkn/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/htynkn/wlwmanifest.xml"/>
+<script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">var currentBlogApp = 'htynkn', cb_enable_mathjax=true;</script>
+<script src="/bundles/blog-common.js?v=YE4Yf2v1HpAVZLFA45p-EjGRYWlmADxKPN4_Gi-5S9Y1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<link type="text/css" rel="Stylesheet" href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeMidnight.css" />
+<link type="text/css" rel="Stylesheet" href="http://files.cnblogs.com/htynkn/own.css"/>
+<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js"></script>
+<!--PageBeginHtml Block End-->
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/htynkn/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>
+
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/htynkn/">夜明的孤行灯</a></h1>
+<h2>有一种准则，它不是墙上贴着的，而是像空气一样无处不在的</h2>
+
+
+
+
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+
+<ul id="navList">
+<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/htynkn/">首页</a></li>
+<li><a class="menu" href="http://q.cnblogs.com/">博问</a></li>
+<li><a class="menu" href="http://home.cnblogs.com/ing/">闪存</a></li>
+<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="MyLinks1_ContactLink" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af">联系</a></li>
+<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/htynkn/rss">订阅</a>
+<!--<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/htynkn/rss"><img src="http://www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+
+
+<!--done-->
+随笔- 66&nbsp;
+文章- 2&nbsp;
+评论- 807&nbsp;
+
+
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+
+
+<!--done-->
+
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a id="homepage1_HomePageDays_ctl00_ImageLink"></a>
+	</div>
+
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_0" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/10/libgdx_11.html">android游戏开发框架libgdx的使用（十一）—Skin和UI配置文件的使用</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。libgdx的UI改进很大，原来各种稀奇古怪的问题都已经解决了，而且UI的类型也基本上完全了。推荐大家下载最近的版本使用。UI的使用我觉得唯一复杂的就是各种样式的制定，比如TextButton：public TextButtonStyle (NinePatch down, NinePatch up, NinePatch checked, float pressedOffsetX, float pressedOffsetY,float unpressedOffsetX, float unpressedO<a href="http://www.cnblogs.com/htynkn/archive/2012/01/10/libgdx_11.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-10 15:21 夜明的孤行灯 阅读(6335) 评论(25)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2318167" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_1" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/09/libgdx_10.html">android游戏开发框架libgdx的使用（十）—双舞台</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 游戏屏幕最常见的就是一个变化较少的背景加上一系列和用户交互的角色和部件。为了方便管理你还可以为背景建个Group方便管理。但是有时候写的时候没有想到这个问题，或者是背景不是单纯的一个图片什么的，背景和角色还有一些混合逻辑分布在两个Stage里。我重写太麻烦，想想反正都是SpritBatch绘制出来的，用双舞台大不了多个摄像头。马上试试还真行。先看看Stage的draw方法：/** Renders the stage */ public void draw () { camera.update(); if (!root.visible) return; ...<a href="http://www.cnblogs.com/htynkn/archive/2012/01/09/libgdx_10.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-09 13:50 夜明的孤行灯 阅读(6022) 评论(22)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2317027" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_2" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/12/31/libgdx_9.html">android游戏开发框架libgdx的使用（九）—在libgdx中使用Box2d</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 在游戏开发中难免会需要模拟现实情况，一般常见的就是模拟物理世界。比如物体碰撞，车辆前进，物体下落等。也许有人会觉得原来有实现过一些效果没有看到用什么物理知识呢。在我看来引入物理引擎并不是必须的，但是这样可以让游戏更逼真。物理引擎的话首选Box2d,但是它是C++写的，直接用不方便。在Android游戏开发中使用物理引擎一般有三个比较好的选择：1.JBox2dBox2d的Java移植版本，速度有点慢。不过对于不熟悉C++的朋友而言这个可以拿来看看原理。2.Havok这个就不多说了，我怎么没有用过。3.Libgdxlibgdx用了jni封装了box2d，速度和易用性都不错。下面我们来看看一个示例,<a href="http://www.cnblogs.com/htynkn/archive/2011/12/31/libgdx_9.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-12-31 13:21 夜明的孤行灯 阅读(6681) 评论(34)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2308648" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_3" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/12/19/sourceForge_or_google_code.html">是sourceForge还是google code？</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 最近写了一点小东西，想把代码放到网上。最先想到的是google code，没有其他什么说的，界面简单，使用方便。svn服务器速度也不错，校园网这个渣速也可以跑到40K/S。用着用着就觉得有点纠结了，因为仔细研究了一下sourceForge，觉得也不错，有点像移动到sourceForge上去。但是sourceForge的速度有点纠结了，还有满屏的英语…看着有点困难。而且建立项目的界面改了，有点不知所云。（可以切换到老界面创建项目）。仔细比较了一下觉得二者各有优劣，遂把随感随想写成博文，一方面给后来人参考，一方面想听听其他朋友的看法。1.google code优点：*毫无悬念，速度快，特别是SVN<a href="http://www.cnblogs.com/htynkn/archive/2011/12/19/sourceForge_or_google_code.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-12-19 22:37 夜明的孤行灯 阅读(1916) 评论(3)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2293963" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_4" class="postTitle2" href="http://www.cnblogs.com/htynkn/articles/love_a_programmer.html">[转]如果你喜欢上了一个程序员小伙</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 这是我转载的，但是我没有找到原作者...所有就不给出原文连接了。如果你喜欢上了一个程序员小伙，就不用再害怕电脑中病毒QQ被盗，因为他至少尝试过10款以上杀毒软件，他知道用那款占资源最少防毒效果最好的保护你的电脑。如果你喜欢上了一个程序员小伙，就不用担心他会外遇，因为他工作内容深奥无边，每天沉醉于业务研究之中的他，没有应酬，更没有酒吧KTV，在他眼里那唯一诱惑，便是你。如果你喜欢上了一个程序员小伙，就不用担心他酗酒，因为程序员大部分都是喝一瓶啤酒就脸红的，不用担心他深夜酗酒醉倒马路、回家打骂妻儿的。相反，在你遇到困难的时候，这个平时看上去没心没肺的程序员男人，会第一时间在你身后支持你，温暖你。如<a href="http://www.cnblogs.com/htynkn/articles/love_a_programmer.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-12-17 19:24 夜明的孤行灯 阅读(292) 评论(5) &nbsp;<a href="http://i.cnblogs.com/EditArticles.aspx?postid=2291284" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_5" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/12/06/libgdx_8.html">android游戏开发框架libgdx的使用（八）--相机和观察点</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。相机也可以成为观察者，最简单的例子就是魂斗罗。玩家操作角色前进，后退，跳跃等，显示的世界（就是后面的背景）会不停变化。其实就是相机的观察点（视角）的改变引起的。也许游戏的世界（背景地图）很大，比如10240*480，而设备的分辨率是800*480。现在游戏的角色在地图的最左侧，那么它的观察点就是(400,240)。随着角色的向前移动，观察点也变化，通常是y值变大。角色后退时y值变小。角色跳跃时，x值变化。（其实地图可能要稍微高一点，比如500，这样角色的跳跃才会有效果）。可以说相机是游戏开发的一个基本<a href="http://www.cnblogs.com/htynkn/archive/2011/12/06/libgdx_8.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-12-06 18:42 夜明的孤行灯 阅读(7092) 评论(46)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2278361" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_6" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/29/libgdx_7.html">android游戏开发框架libgdx的使用（七）--开发框架总观</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。上几篇文章介绍了libgdx框架的一些基本类的用法，也夹杂着浏览了一下部分源代码，但是如果使用libgdx进实际开发？仅仅了解几个类是不够的，还需要对框架有具体和宏观的了解。1.应用的生命周期游戏应该高效和稳定，特别是对于android平台。目前的开发都是面向手机和平板。如果有效的管理资源，如何高效的运行都是非常重要的。试想一个制作优美，可玩性高的游戏运行于你的android手机上却10秒钟崩溃一次，运行时卡的如同在看漫画，这样的游戏是有合格的吗？Android一般不用管resize(),我们在cre<a href="http://www.cnblogs.com/htynkn/archive/2011/11/29/libgdx_7.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-29 00:03 夜明的孤行灯 阅读(6860) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2266913" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_7" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/18/libgdx_6.html">android游戏开发框架libgdx的使用（六）--演员和演出</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。上一篇说到UI，然后之前说到舞台，现在我们可以很轻松的构建一出戏了。因为actor类在绘制是以x，y值为基准，所以我们可以通过控制x，y值变化演员的位置，但是演员的其他效果需要配合Action类进行操作。Action类是一个抽象类，所有的具体实现都在com.badlogic.gdx.scenes.scene2d.actions包中。而包中的类依功能而言可以分为两类：控制Action表现Action控制Action没有直接表现效果，它操作的对象是表现Action。比如Delay。表现Action就是直接<a href="http://www.cnblogs.com/htynkn/archive/2011/11/18/libgdx_6.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-18 18:22 夜明的孤行灯 阅读(66541) 评论(27)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2254475" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_8" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/16/libgdx_5.html">android游戏开发框架libgdx的使用（五）--舞台和常用UI类</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。常用的UI类包括标签，按钮，勾选框，下拉框，图片，输入框，列表，滑动面板，滑条，分割面板。它们都在com.badlogic.gdx.scenes.scene2d.ui包中，都属于Actor，可以方便的纳入舞台的管理中。其实仔细看看UI类的实现代码不难发现其实它们都是大部分继承自Widget或者Table，如果需要自定义UI可以继承以上两个类（它们继承自Actor），这里要说明一下libgdx的布局部分使用了TWL，有兴趣的朋友可以去看看。在介绍每个控件之前我们先来看一下NinePatch，这是最近的一<a href="http://www.cnblogs.com/htynkn/archive/2011/11/16/libgdx_5.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-16 23:37 夜明的孤行灯 阅读(10968) 评论(29)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2251972" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_9" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/15/libgdx_4.html">android游戏开发框架libgdx的使用（四）--舞台和演员</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。我们先看几个游戏截图再来理解何为舞台。请仔细观察图片中的元素，有些东西是不能动，有些可以动，有些有特效，有些没有。有些是按钮，有些是图片，但是其实它们都可以统一称为演员（Actor）。而整个游戏界面就是我们的舞台。再看一个射击类游戏而其中的演员是演员是游戏设计中常用的一个对象，它接受舞台的统一管理，拥有一些公共的事件，比如触摸，点击，但是同时还有自身的响应和属性。而舞台就是容纳演员的场所。它统一管理所有演员，接受输入，同时提供一个方便的框架操作演员的时间变化。我们来看一下Stage类：protecte<a href="http://www.cnblogs.com/htynkn/archive/2011/11/15/libgdx_4.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-15 00:03 夜明的孤行灯 阅读(13128) 评论(44)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2249094" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_10" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/11/libgdx_3.html">android游戏开发框架libgdx的使用（三）--中文显示与汉字绘制</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。本来这篇想写场景的，但是昨天和群里一个朋友讨论了一下libgdx显示汉字的问题。以前没有注意到这个问题，发现还是蛮严重的，要是不支持中文，libgdx用着就有点不愉快了。我们来看看BitmapFont类，这是有关文字绘制的。看一下源码：public BitmapFont () { this(Gdx.files.classpath(&quot;com/badlogic/gdx/utils/arial-15.fnt&quot;), Gdx.files.classpath(&quot;com/ba...<a href="http://www.cnblogs.com/htynkn/archive/2011/11/11/libgdx_3.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-11 08:48 夜明的孤行灯 阅读(10763) 评论(42)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2245214" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_11" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/10/libgdx_2.html">android游戏开发框架libgdx的使用（二）--图形绘制</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。首先了解一下何为texture。按照英文解释来理解：一个图片从原始格式解码并上传到GPU就被称为纹理。（说实话我不是很清楚这个的定义哈，求指点）为了绘制texture，常常使用几何来描述，通过几何对应的顶点来描述纹理。比如要描述一个矩形，可以通过描述每个顶点来描述矩形。要绘图时，首先要绑定纹理，然后传递一个几何描述给OpenGL进行绘制。而绘图的大小和位置由几何描述和OpenGL的viewport的设置共同决定。当然大部分的游戏都会让viewport的大小和屏幕一致。这就意味使用像素更容易让纹理绘制在<a href="http://www.cnblogs.com/htynkn/archive/2011/11/10/libgdx_2.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-10 14:18 夜明的孤行灯 阅读(14405) 评论(32)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2244415" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_12" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/10/libgdx_1.html">android游戏开发框架libgdx的使用（一）--环境搭建</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。Libgdx是一款支持2D与3D游戏开发的游戏类库，兼容大多数微机平台（标准JavaSE实现，能运行在Mac、Linux、Windows等系统）与Android平台（Android1.5以上即可使用，Android2.1以上可满功率发挥）。logo：地址：http://code.google.com/p/libgdx/首先下载最新的jar，我下载的是libgdx-0.9.2。新建一个Android项目，File -&gt; New -&gt; Project -&gt; Android Project<a href="http://www.cnblogs.com/htynkn/archive/2011/11/10/libgdx_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-10 00:35 夜明的孤行灯 阅读(14400) 评论(35)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2243814" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_13" class="postTitle2" href="http://www.cnblogs.com/htynkn/articles/2237249.html">C# 调用Win32Api打印文件</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: // Structure and API declarions: [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)] public class DOCINFOA { [MarshalAs(UnmanagedType.LPStr)] public string pDocName; [MarshalAs(UnmanagedType.LPStr)] public string pOut...<a href="http://www.cnblogs.com/htynkn/articles/2237249.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-05 20:23 夜明的孤行灯 阅读(244) 评论(0) &nbsp;<a href="http://i.cnblogs.com/EditArticles.aspx?postid=2237249" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_14" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/05/NSoup_luanma.html">C#使用NSoup解析HTML的乱码解决</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: NSoup是JSoup的Net移植版本。使用方法基本一致。如果项目涉及HTML的处理，强烈推荐NSoup，毕竟字符串截断太苦逼了。下载地址：http://nsoup.codeplex.com/简单用法如下：NSoup.Nodes.Document doc = NSoup.NSoupClient.Parse(HtmlString);处理网络上的页面：NSoup.Nodes.Document doc = NSoup.NSoupClient.Connect(&quot;http://www.cnblogs.com/htynkn/&quot;).Get();但是遗憾的是NSoup默认的编码是UTF-8<a href="http://www.cnblogs.com/htynkn/archive/2011/11/05/NSoup_luanma.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-05 19:06 夜明的孤行灯 阅读(1014) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2237215" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+		<div id="homepage1_HomePageDays_ctl00_DayList_BottomPager" class="topicListFooter"><a href="/htynkn/default.html?page=4&amp;OnlyTitle=1">仅列出标题</a><div class="pager">
+	共5页:&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=3">上一页</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=1">1</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=2">2</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=3">3</a>&nbsp;4&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=5">5</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=5">下一页</a>&nbsp;
+</div></div>
+</div>
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+
+<!--done-->
+Copyright &copy;2014 夜明的孤行灯
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+<!--PageEndHtml Block Begin-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F813fdd999bef0f68fc9d5a0145973e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {
+data_track_clickback:'true',
+shareImg:{
+        "showType":"ALL",
+"divname":"cnblogs_post_body"
+}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?move=0&amp;uid=1542415" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div class="returnTop" title="嗖的就上去了！">
+  <span class="s"></span>
+  <span class="b"></span>
+  返回顶部
+</div>
+<style>
+.returnTop {
+    position: fixed;
+    _position: absolute;
+    right: 20px;
+    bottom: 40px;
+    _bottom: auto;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2E5FB7;
+    border-radius:4px;
+    background: #fff;
+    box-shadow: 0 0 5px #F5F5F5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.returnTop .s {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent transparent #2E65B7;
+    border-style: dashed dashed solid;
+}
+.returnTop .b {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #2E5FB7;
+}
+</style>
+<script>
+$(function(){
+  // 给 window 对象绑定 scroll 事件
+  $(window).bind("scroll", function(){
+
+      // 获取网页文档对象滚动条的垂直偏移
+      var scrollTopNum = $(document).scrollTop(),
+          // 获取浏览器当前窗口的高度
+          winHeight = $(window).height(),
+          returnTop = $("div.returnTop");
+
+      // 滚动条的垂直偏移大于 0 时显示，反之隐藏
+      (scrollTopNum > 0) ? returnTop.fadeIn("fast") : returnTop.fadeOut("fast");
+
+      // 给 IE6 定位
+      if (!-[1,]&&!window.XMLHttpRequest) {
+          returnTop.css("top", scrollTopNum + winHeight - 200);
+      }
+
+  });
+
+  // 点击按钮后，滚动条的垂直方向的值逐渐变为0，也就是滑动向上的效果
+  $("div.returnTop").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 100);
+  });
+
+});
+</script>
+<!--PageEndHtml Block End-->
+</body>
+</html>

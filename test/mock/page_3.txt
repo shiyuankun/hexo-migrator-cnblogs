@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<title>夜明的孤行灯 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=gdNkSiQMyBMkpTeO1ex9qW-60UbMszQItnCUpBAT3LQ1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="http://common.cnblogs.com/Skins/BlackLowKey/style.css?id=20140110"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/100509.css?v=FKHdWkMrzhRiQrhBVN%2fgycvkvKM%3d"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/htynkn/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/htynkn/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/htynkn/wlwmanifest.xml"/>
+<script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">var currentBlogApp = 'htynkn', cb_enable_mathjax=true;</script>
+<script src="/bundles/blog-common.js?v=YE4Yf2v1HpAVZLFA45p-EjGRYWlmADxKPN4_Gi-5S9Y1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<link type="text/css" rel="Stylesheet" href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeMidnight.css" />
+<link type="text/css" rel="Stylesheet" href="http://files.cnblogs.com/htynkn/own.css"/>
+<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js"></script>
+<!--PageBeginHtml Block End-->
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/htynkn/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>
+
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/htynkn/">夜明的孤行灯</a></h1>
+<h2>有一种准则，它不是墙上贴着的，而是像空气一样无处不在的</h2>
+
+
+
+
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+
+<ul id="navList">
+<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/htynkn/">首页</a></li>
+<li><a class="menu" href="http://q.cnblogs.com/">博问</a></li>
+<li><a class="menu" href="http://home.cnblogs.com/ing/">闪存</a></li>
+<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="MyLinks1_ContactLink" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af">联系</a></li>
+<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/htynkn/rss">订阅</a>
+<!--<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/htynkn/rss"><img src="http://www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+
+
+<!--done-->
+随笔- 66&nbsp;
+文章- 2&nbsp;
+评论- 807&nbsp;
+
+
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+
+
+<!--done-->
+
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a id="homepage1_HomePageDays_ctl00_ImageLink"></a>
+	</div>
+
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_0" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/06/AForge_4.html">模糊系统架构和简单实现--AForge.NET框架的使用（四）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 先说一下，为什么题目是简单实现，因为我实在没有弄出好的例子。我原来用AForge.net做的项目中的模糊系统融入了神经网络和向量机，没法抽出来当例子，就用了个最老的自动车辆的例子。模糊系统（Fuzzy System）架构前面零零散散说来一下有关模糊系统和模糊理论的东西，这里来个总结。模煳系统的基本架构如图8.1所示，其中主要的功能方块包括：(1)模煳化机构、(2)模煳规则库、(3)模煳推论引擎、以及(4)去模煳化机构。模糊化机构是有关模糊集合和隶属度函数的内容。模糊规则前文也有提及，去模糊化只涉及了重心法一种，这里简单说一下模糊推理引擎。模糊推理引擎是模煳系统的核心，它可以藉由近似推论或模煳推<a href="http://www.cnblogs.com/htynkn/archive/2012/02/06/AForge_4.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-06 19:06 夜明的孤行灯 阅读(1911) 评论(3)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2340523" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_1" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/05/AForge_3.html">子句判断、启动强度和去模糊化--AForge.NET框架的使用（三）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 使用AForge.NET进行模糊运算上一篇说来一些模糊运算的数学问题，用AForge.NET做相关运算就很简单了。1.联集运算中的标准联集数学：s (p,q) = max (p,q)程序：public class MaximumCoNorm : ICoNorm { public float Evaluate( float membershipA, float membershipB ) { return Math.Max( membershipA, membershipB ); } }2.交集运算中的标准交集数学：t (p,q) = min (p,q)程...<a href="http://www.cnblogs.com/htynkn/archive/2012/02/05/AForge_3.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-05 15:10 夜明的孤行灯 阅读(1331) 评论(1)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2339012" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_2" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/04/AForge_2.html">模糊语意变数、规则和模糊运算--AForge.NET框架的使用（二）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 语意变数（Linguistic Variable）语意变数存储了数个语意量（标签），每个语意量包含一个识别名和模糊集合。在宣告陈述时每个语意量只能和在同一变数中的语意比较。举个很简单的例子，我们有一个名为temperature的语意变数，它包含4个语意量，名为cold、cool、warm、hot，这也是各自的标签名，同时它们还有各自的隶属度函数。那么我们就在接下来的系统中使用诸如temperature is hot或者temperature is not hot等等了。 //语意变数的声明 LinguisticVariable lvTemperature = new LinguisticVar<a href="http://www.cnblogs.com/htynkn/archive/2012/02/04/AForge_2.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-04 12:59 夜明的孤行灯 阅读(1453) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2337908" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_3" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/03/AForge_1.html">模糊集合和隶属度函数--AForge.NET框架的使用（一）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 什么是AForge.NET？AForge.NET是一个为开发人员和研究人员开发的框架，它可以用于计算机视觉，遗传算法，图像处理，神经网络，机器人学习与控制，机器学习和模糊系统。AForge.NET的官方文档比较丰富，网上也有一些相关文章，但是多是关于视觉和神经网络的，而我个人对模糊系统比较感兴趣，故写下自己的一些感受。模糊系统和模糊理论简述模糊系统主要是区别于经典系统（或称为常规系统）。在研究人机系统，管理系统，特别是经济和社会系统时，由于加入人的逻辑、推理、判断，很多决策很难做到完全精确，这些和人有关的系统就拥有了某种模糊性。在常规系统中，如果一个系统在某刻的状态和输入一旦决定，下个时刻的状<a href="http://www.cnblogs.com/htynkn/archive/2012/02/03/AForge_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-03 17:41 夜明的孤行灯 阅读(2762) 评论(14)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2337410" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_4" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/31/ajax_for_comment.html">Ajax实现评论的顶和踩功能</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 这算是社团布置的一个假期小作业吧，我只是提出我自己的解决方案，不一定是最合适的。效果大致如下：javascript这块使用jquery。新建一个Asp.net web项目，使用NuGet获取Jquery最新版。数据库方面使用Nhibernate，用Install-Package Nhibernate引用。数据库是用的PostgreSQL，Install-Package Npgsql把驱动装上。我这里偷个懒，数据库名，用户名和密码都是ajaxDemo了。创建数据库：CREATE DATABASE &quot;ajaxDemo&quot; WITH OWNER = &quot;ajaxDemo&q<a href="http://www.cnblogs.com/htynkn/archive/2012/01/31/ajax_for_comment.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-31 17:16 夜明的孤行灯 阅读(2162) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2333781" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_5" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/29/use_nuget_tools.html">真心好用的VS扩展--NuGet</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 无聊中手机上网翻到的，先没明白这是什么东西，等我实际体验了一把以后完全震惊了，太给力了！NuGet的官方说明是：NuGet是一款Visual Studio的扩展，它可以简单的安装、升级开源库和工具。官网地址：http://www.nuget.org/官网最醒目的位置就是下载链接，安装完成后我们来快速体验一把。手上有个小项目需要使用到json格式，一般情况我会先Google一下有没有相关的开源库（这个肯定是有的）。然后从一些博文中发现了Json.net，然后继续Google之，找到Json.net的官网，然后下载最新的稳定版本，找出DLL文件引用它。是不是很复杂？很繁琐？（其实没用NuGet之前<a href="http://www.cnblogs.com/htynkn/archive/2012/01/29/use_nuget_tools.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-29 19:05 夜明的孤行灯 阅读(5283) 评论(23)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2331399" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_6" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/20/share_programer_pdf.html">分享几篇文章（PDF版）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 后天就要回老家了，除了团团年估计也没有其他好玩的，就琢磨下点经典文章带回去看看。Google一番找到了老赵很早以前的文章：http://www.cnblogs.com/JeffreyZhao/archive/2009/03/02/1401259.html说来惭愧，里面的十余篇文章我只看过一篇，正好就补补知识。原文给出的连接多是在线版，我找了部分的pdf给大家分享一下。合集下载：所有程序员都应该至少读上两遍的十篇论文.rar单个文章：1.Big Ball of Mud.pdf 2.The Next 700 Programming Languages.pdf 3.Reflections on Tr<a href="http://www.cnblogs.com/htynkn/archive/2012/01/20/share_programer_pdf.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-20 14:31 夜明的孤行灯 阅读(2479) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2327866" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_7" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/19/hello_Jelastic.html">Jelastic--支持java的PaaS</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 最开始使用的是gae，被墙以后转战sae。虽然sae用着也不错，但是php用着始终没有java熟悉。在网上游荡时发现Jelastic，虽然是测试版，但是功能什么的毫无含糊，用着也很方便。地址：http://app.jelastic.servint.net/1.首先注册账号，登陆。2.从Email中得到密码后登陆。点击Create Environment。有4中容器可以选择，Jetty，Glassfish，Tomcat 6，Tomcat 7.下面还可以选择MySql和NoSql（可以选择MongoDB获取CouchDB）。还有Nginx可选。右边虽然有价格计算器，不过不用担心，都是$0。基本上可<a href="http://www.cnblogs.com/htynkn/archive/2012/01/19/hello_Jelastic.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-19 23:25 夜明的孤行灯 阅读(2771) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2327677" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_8" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/19/libgdx_17.html">android游戏开发框架libgdx的使用（十七）—TiledMap中角色的行动路径</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 分享了一些素材，有兴趣的朋友可以看看：http://www.cnblogs.com/htynkn/archive/2012/01/19/game_resource.html前些日子的文章介绍了tiledmap的主角出现和移动等等问题。相对于主角游戏自然还应该有敌人（？）。与主角不同的是，这些元素的移动时程序控制的，一般有3种。1.随主角的移动变化,靠近主角或远离主角2.按照固定路线移动3.不动第一种的话完全是看你的游戏逻辑决定，和tiledmap关系不大。第二种的话我们可以避免硬编码（把移动路径写入程序代码中），而采用tiledmap实现，下面我们来看看具体过程。还是新建一张地图，我选用的大小<a href="http://www.cnblogs.com/htynkn/archive/2012/01/19/libgdx_17.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-19 18:33 夜明的孤行灯 阅读(4084) 评论(6)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2327568" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_9" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/19/game_resource.html">分享从网上收集的一些游戏资源，以RPG类为主</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 最近一直在研究libgdx引擎的使用，自然需要一些图片资源，一边学习一边从网上搬运各种用的上的资源，估摸可能有人用的上，特意分享在此。下载地址：点击此处收集的资源主要分5个大类，我每一类传几张预览图吧：1.tiles主要是tiledmap用的。2.场景3.过渡4.角色这个的角色资源包含脸部特写，也包含人物走动的图，还有一张情绪图。5.游戏结束反正东西也不大，我就不分开打包了。大家要是觉得有用就下载吧。下载地址：诚通网盘：http://www.ctdisk.com/file/4279436这个网站也不错哈~素材丰富http://www.66rpg.com/category.php?c=3<a href="http://www.cnblogs.com/htynkn/archive/2012/01/19/game_resource.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-19 13:14 夜明的孤行灯 阅读(4001) 评论(7)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2326307" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_10" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/19/libgdx_16.html">android游戏开发框架libgdx的使用（十六）—使用TexturePacker工具加快开发速度</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: libgdx绝对是一个相当不错的游戏引擎，最近一段时间的学习我感觉收获很多。但是我一直对于libgdx加载的图片大小必须是2的次方感到很纠结。如果是一张一般的图片想在libgdx中使用的话就需要自己去用ps什么的把图像拉一下，一两张没关系，但是数量大了还是有点烦。而且拉大的图片还需要TextureRegion来切割一下，实在麻烦。仔细看了一下libgdx的tool包，发现早有解决方案了。具体的类是imagepacker，在com.badlogic.gdx.tools.imagepacker包之中。它可以将多张图片合并在一张之中。同时可以通过原有文件的文件名获得图片资源。这里有几张图片：将它们放<a href="http://www.cnblogs.com/htynkn/archive/2012/01/19/libgdx_16.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-19 11:49 夜明的孤行灯 阅读(8936) 评论(13)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2326265" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_11" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/17/libgdx_15.html">android游戏开发框架libgdx的使用（十五）—TWL布局</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。TWL是一个基于OpenGL的图形化用户界面库，它提供了一套非常丰富的窗口小部件，比如标签，编辑框，表格等等。不同的布局方式配合使用可以创建出非常高级的用户界面。TWL我原来接触过，但是觉得配置文件太难写了，今天逛论坛发现了官方出了Theme编辑器，马上来试试。官网：http://twl.l33tlabs.org/Editor下载地址：http://twl.l33tlabs.org/themer/themer.jnlp双击等下就可以运行了，界面如下。先新建一个项目。来看看默认的项目有什么。第一项是字体<a href="http://www.cnblogs.com/htynkn/archive/2012/01/17/libgdx_15.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-17 18:48 夜明的孤行灯 阅读(4409) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2324961" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_12" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/13/libgdx_14.html">android游戏开发框架libgdx的使用（十四）—TiledMap中视角完善和障碍物处理</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。本文紧跟上文：http://www.cnblogs.com/htynkn/archive/2012/01/13/libgdx_13.html上文说到绘制了Map，然后我们的主角也可以四处活动了，但是仍有一些不完善的地方。1.地图的边界没有控制。Camera的位置其实是viewport的位置，不是屏幕边界，所以如果直接按照上文的做法做的话主角走到屏幕边缘的时候就有问题了。2.没有障碍，主角的行动没有约束。现在先来解决第一个问题。解决方案很简单，我们时刻注意viewport的位置，根据viewport计算<a href="http://www.cnblogs.com/htynkn/archive/2012/01/13/libgdx_14.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-13 22:16 夜明的孤行灯 阅读(5312) 评论(27)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2322084" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_13" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/13/libgdx_13.html">android游戏开发框架libgdx的使用（十三）—TiledMap中的角色和角色移动</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。本文紧跟上文，地址：android游戏开发框架libgdx的使用（十二）—TiledMap地图的使用地图我们创建好了接下来就是主角的出现。其实上文介绍了如何TiledMap和Stage的结合，角色的处理就简单了。可以继承Actor类创建主角类，我就偷个懒，用Image代替。编辑我们的TMX文件，添加一个对象层。在主角要出现的地方加个形状取名为play1我们的主角是：思路是我们遍历map中的所有Object，如果名字和我们设定的play1一致，那么就实例化一个Image,位置和Object一致，添加到舞<a href="http://www.cnblogs.com/htynkn/archive/2012/01/13/libgdx_13.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-13 17:32 夜明的孤行灯 阅读(6914) 评论(11)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2321887" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_14" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/01/12/libgdx_12.html">android游戏开发框架libgdx的使用（十二）—TiledMap地图的使用</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 提示：本文记录的是本人的操作流程和心得，各位操作时可能由于版本和其它问题会出现点障碍，请参考本文后面的评论和回复。虽说可以用Image什么的当个背景，但是要是做个RPG类的游戏就有点复杂了。为了追求效率一般可以使用libgdx的SpriteCache，但是如果习惯于TiledMap的话libgdx也是支持的。相关的类是TiledMap，TileAtlas，TileMapRenderer，都在com.badlogic.gdx.graphics.g2d.tiled之中。现在我们从头来看看TiledMap的使用。1.制作TiledMap。我使用的是Tile Map editor，下载地址：http:<a href="http://www.cnblogs.com/htynkn/archive/2012/01/12/libgdx_12.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-01-12 15:55 夜明的孤行灯 阅读(10841) 评论(58)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2320730" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+		<div id="homepage1_HomePageDays_ctl00_DayList_BottomPager" class="topicListFooter"><a href="/htynkn/default.html?page=3&amp;OnlyTitle=1">仅列出标题</a><div class="pager">
+	共5页:&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=2">上一页</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=1">1</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=2">2</a>&nbsp;3&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=4">4</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=5">5</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=4">下一页</a>&nbsp;
+</div></div>
+</div>
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+
+<!--done-->
+Copyright &copy;2014 夜明的孤行灯
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+<!--PageEndHtml Block Begin-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F813fdd999bef0f68fc9d5a0145973e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {
+data_track_clickback:'true',
+shareImg:{
+        "showType":"ALL",
+"divname":"cnblogs_post_body"
+}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?move=0&amp;uid=1542415" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div class="returnTop" title="嗖的就上去了！">
+  <span class="s"></span>
+  <span class="b"></span>
+  返回顶部
+</div>
+<style>
+.returnTop {
+    position: fixed;
+    _position: absolute;
+    right: 20px;
+    bottom: 40px;
+    _bottom: auto;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2E5FB7;
+    border-radius:4px;
+    background: #fff;
+    box-shadow: 0 0 5px #F5F5F5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.returnTop .s {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent transparent #2E65B7;
+    border-style: dashed dashed solid;
+}
+.returnTop .b {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #2E5FB7;
+}
+</style>
+<script>
+$(function(){
+  // 给 window 对象绑定 scroll 事件
+  $(window).bind("scroll", function(){
+
+      // 获取网页文档对象滚动条的垂直偏移
+      var scrollTopNum = $(document).scrollTop(),
+          // 获取浏览器当前窗口的高度
+          winHeight = $(window).height(),
+          returnTop = $("div.returnTop");
+
+      // 滚动条的垂直偏移大于 0 时显示，反之隐藏
+      (scrollTopNum > 0) ? returnTop.fadeIn("fast") : returnTop.fadeOut("fast");
+
+      // 给 IE6 定位
+      if (!-[1,]&&!window.XMLHttpRequest) {
+          returnTop.css("top", scrollTopNum + winHeight - 200);
+      }
+
+  });
+
+  // 点击按钮后，滚动条的垂直方向的值逐渐变为0，也就是滑动向上的效果
+  $("div.returnTop").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 100);
+  });
+
+});
+</script>
+<!--PageEndHtml Block End-->
+</body>
+</html>

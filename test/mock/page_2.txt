@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<title>夜明的孤行灯 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=gdNkSiQMyBMkpTeO1ex9qW-60UbMszQItnCUpBAT3LQ1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="http://common.cnblogs.com/Skins/BlackLowKey/style.css?id=20140110"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/100509.css?v=FKHdWkMrzhRiQrhBVN%2fgycvkvKM%3d"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/htynkn/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/htynkn/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/htynkn/wlwmanifest.xml"/>
+<script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">var currentBlogApp = 'htynkn', cb_enable_mathjax=true;</script>
+<script src="/bundles/blog-common.js?v=YE4Yf2v1HpAVZLFA45p-EjGRYWlmADxKPN4_Gi-5S9Y1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<link type="text/css" rel="Stylesheet" href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeMidnight.css" />
+<link type="text/css" rel="Stylesheet" href="http://files.cnblogs.com/htynkn/own.css"/>
+<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js"></script>
+<!--PageBeginHtml Block End-->
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/htynkn/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>
+
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/htynkn/">夜明的孤行灯</a></h1>
+<h2>有一种准则，它不是墙上贴着的，而是像空气一样无处不在的</h2>
+
+
+
+
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+
+<ul id="navList">
+<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/htynkn/">首页</a></li>
+<li><a class="menu" href="http://q.cnblogs.com/">博问</a></li>
+<li><a class="menu" href="http://home.cnblogs.com/ing/">闪存</a></li>
+<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="MyLinks1_ContactLink" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af">联系</a></li>
+<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/htynkn/rss">订阅</a>
+<!--<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/htynkn/rss"><img src="http://www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+
+
+<!--done-->
+随笔- 66&nbsp;
+文章- 2&nbsp;
+评论- 807&nbsp;
+
+
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+
+
+<!--done-->
+
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a id="homepage1_HomePageDays_ctl00_ImageLink"></a>
+	</div>
+
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_0" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/08/19/guava_1.html">基础工具--Guava-Libraries学习笔记（一）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 什么是Guava-Libraries？Guava-Libraries是google对java的一个扩展，主要涵盖集合、缓存、并发、I/O、反射等等。它本来是Google内部所使用的一个类库，后来整理开源出来了。这套库的设计引入了很多新的理念，研究一下可能会使你对Java这门语言有新的认识和看法。地址：http://code.google.com/p/guava-libraries/这篇短文主要是关于Guava-Libraries基础工具，内容是我参考官方wiki和自己的使用体验结合而成。null的使用null在java中是一个很特殊的东西。它可以标识一个不确定的对象，比如Ojbect o = <a href="http://www.cnblogs.com/htynkn/archive/2012/08/19/guava_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-08-19 21:56 夜明的孤行灯 阅读(1216) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2646798" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_1" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/07/05/jna_yuyinshibie.html">java通过jna调用科大讯飞语音云实现语音识别功能</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 说明：写本文时还没有提供java平台的，现在官方有java平台的sdk了，可以直接使用。本文已经没有太多实际意义了。语音识别技术语音识别就是让机器通过识别和理解过程把语音信号转变为相应的文本或命令。语音识别技术主要包括特征提取技术、模式匹配准则及模型训练技术三个方面。说实话其中的技术比较多，要独立开发新的基本上不现实。所以自然把目光放到开源项目或者其他公司的API上面了。开源项目我尝试了SpeakRight和sphinx4，但是效果都是一般。AT&amp;T的API老是申请不上，最后把目光放在科大讯飞上了。试用了一下，效果还行，但是它提供的Windows平台的API是C/C++的，我只懂点皮毛<a href="http://www.cnblogs.com/htynkn/archive/2012/07/05/jna_yuyinshibie.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-07-05 14:20 夜明的孤行灯 阅读(6685) 评论(32)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2577767" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_2" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/07/02/umbraco_1.html">在win7上部署umbraco</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 什么是umbracoUmbraco是一个开放源码的CMS内容管理系统，基于asp.net建立，使用mssql进行存储数据。 使用Umbraco ，设计师能创造出有效的XHTML标记模板和开发人员可以创建任何基于.Net的模块。主要特点包括:漂亮，友好的用户界面综合所见即所得编辑器支持编辑在Microsoft Word全部源代码可用（开放源代码）超级简单的模板引擎完全支持Web标准最近需要把一个asp的软件下载站点转移到asp.net，数据库最好用MSSQL。在网上Google一番以后决定试试umbraco，看着一大票的英文文档是在有些难受，还是先看看umbraco是什么样子的再研究文档。我的电<a href="http://www.cnblogs.com/htynkn/archive/2012/07/02/umbraco_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-07-02 22:42 夜明的孤行灯 阅读(2225) 评论(14)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2573802" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_3" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/06/30/ormlite_3.html">Ormlite在一般java环境中操作Sqlite</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 简介最开始接触ormlite是在android的开发中，ormlite的简单便利让我印象深刻。这几天在研究顾客购物行为，需要使用到数据库，但是对于数据库的速度什么的要求不大，我首先想到的是Ormlite+Sqlite。实体类ormlite的官网http://ormlite.com/，最新版本4.41因为是在一般java环境中使用，所以不需要那个android包。引入包以后建立modal，例如：Commodity.java。因为使用的sqlite，主键自增长，设置为@DatabaseField(generatedId = true)完整的代码如下：package com.cnblogs.htyn<a href="http://www.cnblogs.com/htynkn/archive/2012/06/30/ormlite_3.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-06-30 20:15 夜明的孤行灯 阅读(2150) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2571285" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_4" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/06/17/LingPipe_1.html">基于LingPipe的文本倾向性分析--LingPipe学习笔记</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 文本倾向性分析文本倾向性分析（情感分析 ）是将用户的观点分为“正面”和“负面”，有时候会多一个“中性”。文本倾向性分析一个比较直观的应用就是追踪用户对于一个事物的观点和偏好，比如分析豆瓣上一个电影的评论进行分析。正因为如此情感分析又被称为观点挖掘。LingPipelingpipe 是alias公司开发的一款自然语言处理软件包，包括主题分类、句题检测、字符语言建模等十余个模块。而且文档完整，甚至每一个算法都有论文参考。更难能可贵的是它支持中文。官方地址：http://alias-i.com/lingpipe/下载地址：http://alias-i.com/lingpipe/web/downloa<a href="http://www.cnblogs.com/htynkn/archive/2012/06/17/LingPipe_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-06-17 11:43 夜明的孤行灯 阅读(2911) 评论(1)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2552499" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_5" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/06/10/weka_5.html">RIpple-DOwn Rule算法和weka中Rider使用--数据挖掘学习和weka使用（五）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: RIpple-DOwn Rule算法简介RIpple-DOwn Rule算法（链波下降规则）是一种专家系统方法论，它是澳大利亚新南威尔士大学的Compton教授于1989年提出。它是一种用于知识表示和获取的方法。从某种意义上看RDR算法是CBR方法的一种扩展或者变形，RDR将规则引入CBR中，用规则来索引案例，以错误驱动机制来获取知识。RIpple-DOwn Rule算法是比较简单，有时候得出的结果不能让人满意，但是它是我最喜欢的一种算法，它通过否定规则来表示结果，非常适合人类理解。RIpple-DOwn Rule算法流程RIpple-DOwn Rule算法使用了二元决策树，区别于标准决策树，<a href="http://www.cnblogs.com/htynkn/archive/2012/06/10/weka_5.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-06-10 12:00 夜明的孤行灯 阅读(1102) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2543902" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_6" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/04/14/weka_4.html">OneR算法和weka中OneR使用--数据挖掘学习和weka使用（四）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: OneR算法简介OneR又称1-R，是1993出现的一种极为简单的分类算法模型，它可以产生一个单层的决策树。OneR算法是一个简单、廉价的方法，但是常常能够获得一个非常好的结果，用于描述数据中的结构。OneR算法的使用非常广泛，可以简单的得到一个对数据的概括性了解，有时候甚至可以直接获得结果。OneR算法实现OneR的思路很简单，建立一个只针对于单个属性进行测试的规则，并进行不同的分支。每个分支对应的不同属性值。分支的类就是原始数据（训练数据）在这个分支上出现最多的类。每一个属性都会产生一个不同的规则集，每条规则对应这个属性的每个值。对每个属性值的规则集的误差率进行评估，选择效果最好的一个即可<a href="http://www.cnblogs.com/htynkn/archive/2012/04/14/weka_4.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-04-14 11:22 夜明的孤行灯 阅读(1673) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2446905" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_7" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/04/04/libgdx_20.html">android游戏开发框架libgdx的使用（二十）—资源预加载与AssetManager的使用</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。好久没有写libgdx相关的东西了，主要是我不知道改写些什么了。最近收到了很多邮件，大多是关于资源加载的，特别是异步资源加载，还有什么Loading窗口的实现什么的，这篇博文就做个大致的回答吧。什么时候需要资源预加载资源预加载的目的很明确，提升用户体验。当然就开发者而言，比较好的预加载实现方式还可以方便管理。如果游戏很简单简单，资源很少很少，那么弄资源预加载就是费事，但是以下几种情况的话还是推荐使用：1.资源数量大音乐、图片、视频什么的，如果你的游戏这些东西太多，推荐使用2.部分资源反复使用有些资源会<a href="http://www.cnblogs.com/htynkn/archive/2012/04/04/libgdx_20.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-04-04 11:58 夜明的孤行灯 阅读(4326) 评论(16)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2431863" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_8" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/04/02/weka_3.html">数据预处理和weka.filters的使用--数据挖掘学习和weka使用（三）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 上一篇介绍了arff格式，这是weka专有格式，一般情况需要我们从其他数据源抽取或者获得。weka支持从cvs转化，也可以从数据库中抽取，界面如下图weka安装目录有一个data目录，里面有一些测试数据，可以用于测试和学习。导入了数据仅仅是一个开始，我们还需要对数据进行预处理。数据预处理（data preprocessing）数据预处理（data preprocessing）是指在主要的处理以前对数据进行的一些处理。现实世界中数据大体上都是不完整，不一致的脏数据，无法直接进行数据挖掘，或挖掘结果差强人意。为了提高数据挖掘的质量产生了数据预处理技术。数据预处理有多种方法：数据清理，数据集成，数据<a href="http://www.cnblogs.com/htynkn/archive/2012/04/02/weka_3.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-04-02 16:08 夜明的孤行灯 阅读(5614) 评论(2)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2430010" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_9" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/03/30/weka_2.html">输入数据与ARFF文件--数据挖掘学习和weka使用（二）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 我个人认为直接讨论数据挖掘算法和weka的使用过于心急。我一开始就直接学习的数据挖掘方法，有些方法艰涩枯燥，我常常在思考的不是方法本身，而是“这是干什么的？”。在使用了weka后有些东西渐渐清晰，因为输入和输出给了人很直观的感觉，再结合技术本身学习效率很高。输入主要有三类：概念、实例和属性。概念概念简单而言就是需要被处理的东西。它可以是分类学习中那个已经分类完成的样本集。你需要处理的东西可能差别很大，但你可以统称它们为概念，而输出就是对其的描述，即概念描述。实例实例这个词你可能觉得陌生，但是你可以大致认为其为样本。我们通常的输入是一个实例集，其中的每一个实例都是单一、独立的概念样本。当然最常见<a href="http://www.cnblogs.com/htynkn/archive/2012/03/30/weka_2.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-03-30 00:21 夜明的孤行灯 阅读(4136) 评论(6)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2424469" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_10" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/03/29/weka_1.html">数据挖掘简述和weka介绍--数据挖掘学习和weka使用（一）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 写在开篇weka用了一些时日了，觉得真心不错。功能很完善，而且是开源的。最重要的扩展方便，非常适合搞研究和做全国大学生数学建模之类的比赛。我学习weka主要是看的一本数据挖掘和weka使用的书，是英文的。国内有中文版…但是不想吐就不要看译本吧，不知道是翻译的人是怎么想的.我写博文的顺序和参考书顺序是一样的，一方面是我觉得原书的学习顺序很合理，另外一个方面是因为我也确确实实是按照这个顺序学的。文章的内容一部分是我大致翻译的原书内容，一部分是我的实际经验。weka的中文资料还是有一些的，但是我没有找到一个较为系统，所以准备自己写一个系列出来。因为数据挖掘涉及一些比较专业的知识，我虽然是学数学的，但<a href="http://www.cnblogs.com/htynkn/archive/2012/03/29/weka_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-03-29 13:31 夜明的孤行灯 阅读(4391) 评论(10)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2423209" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_11" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/03/03/libgdx_19.html">android游戏开发框架libgdx的使用（十九）—使用自定义配置改进AVG游戏开发</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。先说明一下上一篇文章我使用了多张hiero图的字体绘制，因为我对源码进行了一些修改，本来想这次发出来的，但是我仔细调试了一下，发现对于多图的支持还是有问题，有些字会出现偏移。这个只有继续尝试了…大家可以考虑使用ttf字库。然后继续说上一篇，虽然实现了一个简单的效果，但是目前有很多不足。我把AVG游戏需要的资源全部提取出来，放在一个个文件夹中，然后通过配置文件加载这些数据。libgdx的工具库com.badlogic.gdx.utils就是libgdx的工具库，支持两种格式xml和json。我最先倾向于<a href="http://www.cnblogs.com/htynkn/archive/2012/03/03/libgdx_19.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-03-03 22:18 夜明的孤行灯 阅读(3194) 评论(8)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2378769" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_12" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/03/02/libgdx_18.html">android游戏开发框架libgdx的使用（十八）—简单的AVG游戏效果实现</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 本文使用的libgdx是0.92版本，和现在的最新版可能有一些不一样的地方。全文内容仅供参考。好久没有写libgdx的东西了，主要是最近迷上了各种算法…文章是关于实现简单的AVG游戏效果，可能会有好几篇。想用libgdx做点AVG效果主要是因为目前Android上运行的AVG游戏（主要是恋爱模拟类型）的基本基于NScripter引擎移植出来的，我的2B中兴机子跑着巨卡，所以想自己做个。何为AVG游戏冒险类游戏AVG （Adventure Game）通常是玩家控制角色进行虚拟冒险的游戏，其故事情节往往是以完成某个任务或是解开一个谜题的形式出现的。我这里说的AVG主要是指日式AVG，就是在最初的文<a href="http://www.cnblogs.com/htynkn/archive/2012/03/02/libgdx_18.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-03-02 15:24 夜明的孤行灯 阅读(5158) 评论(26)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2377270" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_13" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/29/AForge_6.html">进化计算简介和遗传算法的实现--AForge.NET框架的使用（六）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 开学了，各种忙起来了…上一篇介绍了AForge.NET在人工神经网络上的一点点使用，但是老觉不过瘾。matlab用着实在不习惯，就又琢磨了一下进化计算。进化计算简介进化计算算不上新的方法了，已经有大量研究人员作出了努力，这导致了大量的进化计算算法出现。他们不仅研究算法本身，还致力于扩大算法的应用范围。众所周知，现实世界存在大量复杂问题，它们中一部分无法用常规方法在合理的时间内获得精确解，而另一部分甚至没有行之有效的解决方案。最著名的例子就是TSP问题，该问题意在寻求单一旅行者由起点出发，通过所有给定的需求点之后，最后再回到原点的最小路径成本。而进化计算可以应用于这些问题，因为大多数情况下这类问<a href="http://www.cnblogs.com/htynkn/archive/2012/02/29/AForge_6.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-29 12:57 夜明的孤行灯 阅读(2442) 评论(19)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2373236" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_14" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2012/02/07/AForge_5.html">人工神经网络简介和单层网络实现AND运算--AForge.NET框架的使用（五）</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 前面4篇文章说的是模糊系统，它不同于传统的值逻辑，理论基础是模糊数学，所以有些朋友看着有点迷糊，如果有兴趣建议参考相关书籍，我推荐《模糊数学教程》，国防工业出版社，讲的很全，而且很便宜（我买成7元钱）。人工神经网络的简介人工神经网络是一种应用类似于大脑神经突触联接的结构进行信息处理的数学模型。它是一种运算模型，由大量神经元和相互的连接组成，每个神经元代表一种特定的输出函数，称为激励函数（activation function）。每两个节点间的连接都代表一个对于通过该连接信号的加权值，称之为权重（weight），用于模拟记忆。整个网络的输出则依网络的连接方式、权重值和激励函数的不同而不同。而网络<a href="http://www.cnblogs.com/htynkn/archive/2012/02/07/AForge_5.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2012-02-07 14:29 夜明的孤行灯 阅读(2294) 评论(1)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2341458" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+		<div id="homepage1_HomePageDays_ctl00_DayList_BottomPager" class="topicListFooter"><a href="/htynkn/default.html?page=2&amp;OnlyTitle=1">仅列出标题</a><div class="pager">
+	共5页:&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=1">上一页</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=1">1</a>&nbsp;2&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=3">3</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=4">4</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=5">5</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=3">下一页</a>&nbsp;
+</div></div>
+</div>
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+
+<!--done-->
+Copyright &copy;2014 夜明的孤行灯
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+<!--PageEndHtml Block Begin-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F813fdd999bef0f68fc9d5a0145973e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {
+data_track_clickback:'true',
+shareImg:{
+        "showType":"ALL",
+"divname":"cnblogs_post_body"
+}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?move=0&amp;uid=1542415" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div class="returnTop" title="嗖的就上去了！">
+  <span class="s"></span>
+  <span class="b"></span>
+  返回顶部
+</div>
+<style>
+.returnTop {
+    position: fixed;
+    _position: absolute;
+    right: 20px;
+    bottom: 40px;
+    _bottom: auto;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2E5FB7;
+    border-radius:4px;
+    background: #fff;
+    box-shadow: 0 0 5px #F5F5F5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.returnTop .s {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent transparent #2E65B7;
+    border-style: dashed dashed solid;
+}
+.returnTop .b {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #2E5FB7;
+}
+</style>
+<script>
+$(function(){
+  // 给 window 对象绑定 scroll 事件
+  $(window).bind("scroll", function(){
+
+      // 获取网页文档对象滚动条的垂直偏移
+      var scrollTopNum = $(document).scrollTop(),
+          // 获取浏览器当前窗口的高度
+          winHeight = $(window).height(),
+          returnTop = $("div.returnTop");
+
+      // 滚动条的垂直偏移大于 0 时显示，反之隐藏
+      (scrollTopNum > 0) ? returnTop.fadeIn("fast") : returnTop.fadeOut("fast");
+
+      // 给 IE6 定位
+      if (!-[1,]&&!window.XMLHttpRequest) {
+          returnTop.css("top", scrollTopNum + winHeight - 200);
+      }
+
+  });
+
+  // 点击按钮后，滚动条的垂直方向的值逐渐变为0，也就是滑动向上的效果
+  $("div.returnTop").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 100);
+  });
+
+});
+</script>
+<!--PageEndHtml Block End-->
+</body>
+</html>

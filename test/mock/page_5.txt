@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<title>夜明的孤行灯 - 博客园</title>
+<link type="text/css" rel="stylesheet" href="/bundles/blog-common.css?v=gdNkSiQMyBMkpTeO1ex9qW-60UbMszQItnCUpBAT3LQ1"/>
+<link id="MainCss" type="text/css" rel="stylesheet" href="http://common.cnblogs.com/Skins/BlackLowKey/style.css?id=20140110"/>
+<link type="text/css" rel="stylesheet" href="/blog/customcss/100509.css?v=FKHdWkMrzhRiQrhBVN%2fgycvkvKM%3d"/>
+<link title="RSS" type="application/rss+xml" rel="alternate" href="http://www.cnblogs.com/htynkn/rss"/>
+<link title="RSD" type="application/rsd+xml" rel="EditURI" href="http://www.cnblogs.com/htynkn/rsd.xml"/>
+<link type="application/wlwmanifest+xml" rel="wlwmanifest" href="http://www.cnblogs.com/htynkn/wlwmanifest.xml"/>
+<script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">var currentBlogApp = 'htynkn', cb_enable_mathjax=true;</script>
+<script src="/bundles/blog-common.js?v=YE4Yf2v1HpAVZLFA45p-EjGRYWlmADxKPN4_Gi-5S9Y1" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<!--PageBeginHtml Block Begin-->
+<link type="text/css" rel="Stylesheet" href="http://agorbatchev.typepad.com/pub/sh/3_0_83/styles/shThemeMidnight.css" />
+<link type="text/css" rel="Stylesheet" href="http://files.cnblogs.com/htynkn/own.css"/>
+<script src="http://agorbatchev.typepad.com/pub/sh/3_0_83/scripts/shBrushBash.js"></script>
+<!--PageBeginHtml Block End-->
+
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a id="lnkBlogLogo" href="http://www.cnblogs.com/htynkn/"><img id="blogLogo" src="/Skins/custom/images/logo.gif" alt="返回主页" /></a>
+
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle" href="http://www.cnblogs.com/htynkn/">夜明的孤行灯</a></h1>
+<h2>有一种准则，它不是墙上贴着的，而是像空气一样无处不在的</h2>
+
+
+
+
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+
+<ul id="navList">
+<li><a id="MyLinks1_HomeLink" class="menu" href="http://www.cnblogs.com/">博客园</a></li>
+<li><a id="MyLinks1_MyHomeLink" class="menu" href="http://www.cnblogs.com/htynkn/">首页</a></li>
+<li><a class="menu" href="http://q.cnblogs.com/">博问</a></li>
+<li><a class="menu" href="http://home.cnblogs.com/ing/">闪存</a></li>
+<li><a id="MyLinks1_NewPostLink" class="menu" rel="nofollow" href="http://i.cnblogs.com/EditPosts.aspx?opt=1">新随笔</a></li>
+<li><a id="MyLinks1_ContactLink" class="menu" rel="nofollow" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af">联系</a></li>
+<li><a id="MyLinks1_Syndication" class="menu" href="http://www.cnblogs.com/htynkn/rss">订阅</a>
+<!--<a id="MyLinks1_XMLLink" class="aHeaderXML" href="http://www.cnblogs.com/htynkn/rss"><img src="http://www.cnblogs.com/images/xml.gif" alt="订阅" /></a>--></li>
+<li><a id="MyLinks1_Admin" class="menu" rel="nofollow" href="http://i.cnblogs.com/">管理</a></li>
+</ul>
+		<div class="blogStats">
+
+
+<!--done-->
+随笔- 66&nbsp;
+文章- 2&nbsp;
+评论- 807&nbsp;
+
+
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+
+
+<!--done-->
+
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a id="homepage1_HomePageDays_ctl00_ImageLink"></a>
+	</div>
+
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_0" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/02/Android_Linkify.html">Android自动匹配电子邮件地址，网址，电话--谈Linkify的使用</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 翻看Android Api，无意看到了Linkify。按照Api的说明，Linkify可以转化符合匹配规则的文字为可点击的连接。感觉这个还是有点用处，下面来试一试。1.新建一个项目2.修改样式文件为了方便查看效果，添加一个EditText和一个TextView代码如下：&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; &lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; android:orient<a href="http://www.cnblogs.com/htynkn/archive/2011/11/02/Android_Linkify.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-02 10:04 夜明的孤行灯 阅读(1522) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2232634" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_1" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/11/01/Android_Ormlite_2.html">Android中使用Ormlite实现持久化(二)--持久化类的详细配置</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 上一篇文章简单的使用了Ormlite一下，但是我觉得Ormlite出色之处就是对于需要字段，表等等的配置设计的比较好。下面来说说类的配置：如果我们开发的Android应用需要保持用户信息，那么现在新建一个类：UserAccount该类有六个变量： private int id; private String username; private String password; private Date regTime; private String tellphone; private String email;用eclipse生成get和set方...<a href="http://www.cnblogs.com/htynkn/archive/2011/11/01/Android_Ormlite_2.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-11-01 00:03 夜明的孤行灯 阅读(830) 评论(1)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2230908" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_2" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/31/Jquery_Mobile.html">关于HtmlAttributes无法指定Jquery Mobile中的一些元素的解决方法</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 在Jquery Mobile中如果要指定一个按钮，可以写成&lt;a href=”Home/About” data-role=&quot;button&quot;&gt;关于&lt;/a&gt;但是在Html.ActionLink中会有一些问题&lt;%=Html.ActionLink(&quot;关于&quot;,&quot;About&quot;,&quot;Home&quot;,null,new{@data-role=&quot;button&quot;})%&gt;这样写会报错的。目前的解决办法有两种1.&lt;a href=&quot;&lt;%=Url.Action(&quot;A<a href="http://www.cnblogs.com/htynkn/archive/2011/10/31/Jquery_Mobile.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-31 13:35 夜明的孤行灯 阅读(194) 评论(2)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2230193" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_3" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/30/2229467.html">拥抱NoSQL--谈Spring Data MongoDB的简单使用</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 先说说MongoDB是什么。MongoDB是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。他支持的数据结构非常松散，是类似json的bjson格式，因此可以存储比较复杂的数据类型。Mongo最大的特点是他支持的查询语言非常强大，其语法有点类似于面向对象的查询语言，几乎可以实现类似关系数据库单表查询的绝大部分功能，而且还支持对数据建立索引。它的特点是高性能、易部署、易使用，存储数据非常方便。主要功能特性有：面向集合存储，易存储对象类型的数据。模式自由。支持动态查询。支持完全索引，包含内部对象。支持查询。支持复制和故障恢复。使用高效的二进制数据存储，包<a href="http://www.cnblogs.com/htynkn/archive/2011/10/30/2229467.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-30 19:54 夜明的孤行灯 阅读(3557) 评论(7)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2229467" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_4" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/30/Quart_DelData.html">Quartz.NET 轻松实现定时删除数据库数据</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: Quart是java环境下的任务调度系统，比起原始的数据库触发器标志和独立的调度器线程来说，这个开源的任务调度系统好用了不知道多少倍。最近部门的一个伙伴做了一个投票系统，投票是通过IP限制实现的,IP地址保存在数据库中，需要每天零时删除IP记录。系统是Asp.net的，本来想弄个Timer，但是老觉得不怎么放心，所以暂时改成手动了。最近投票弄完了闲下来研究了一下，发现有个.net环境下的Quart：Quart.Net。从官方主页可以看到这个东西是从Quart移植过来的，就Down下了试了一下，发现用着很顺手。首先下载相关的库。http://quartznet.sourceforge.net/d<a href="http://www.cnblogs.com/htynkn/archive/2011/10/30/Quart_DelData.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-30 15:52 夜明的孤行灯 阅读(954) 评论(3)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2229328" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_5" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/30/Android_Ormlite_1.html">Android中使用ormlite实现持久化--HelloOrmLite</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: Android中内置了sqlite，但是常用的开发语言java是面向对象的，而数据库是关系型的，二者之间的转化每次都很麻烦（主要是我对sql语言不熟悉）。而Java Web开发中有很多orm框架，但是想直接放到Android上用有些麻烦。尝试了一下找Android的orm框架，说实话还有好几个。 实现考虑的是：androrm官网：http://androrm.the-pixelpla.net/说实话，这个我实在没有弄懂，一共两个包。一个是依赖包：Apache Commons - Lang(2.6)另外一个就是主包：androrm.jar 不管怎么下载的都不能使用... 然后有考虑了...<a href="http://www.cnblogs.com/htynkn/archive/2011/10/30/Android_Ormlite_1.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-30 12:18 夜明的孤行灯 阅读(7712) 评论(9)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2229189" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_6" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/30/AndroidSNS.html">为Android应用程序添加社会化分享功能</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 正在做个android的小应用，有点想尝试一下社会化分享，比如分享到新浪微博啥的。看一下新浪，人人网的API，说实话功能很全很强大，但虽说有相对的SDK，但是总觉得不方便。因为正在使用友盟的统计SDK，无意间发还有个SNS的SDK，看了一下文档，感觉不错哈。总共需要3个包，Umeng-Android-SDK-SnsService.jar，httpmime-4.1.1.jar和commons-httpclient-3.1.jar。大小分别为63K,27K，298K。感觉有点点大，但是比较一下新浪，人人，腾讯微薄提供的API，其实大小没差好多，等下我们还可以压缩一下的嘛。新建一个文件夹libs，将<a href="http://www.cnblogs.com/htynkn/archive/2011/10/30/AndroidSNS.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-30 12:08 夜明的孤行灯 阅读(1397) 评论(0)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2229182" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+
+			<div class="postSeparator"></div>
+
+			<div class="postTitle">
+				<a id="homepage1_HomePageDays_ctl00_DayList_TitleUrl_7" class="postTitle2" href="http://www.cnblogs.com/htynkn/archive/2011/10/30/2229170.html">Asp.net 获取当前目录的三种方法</a>
+			</div>
+			<div class="postCon"><div class="c_b_p_desc">摘要: 方法一：string sPath = System.IO.Path.GetDirectoryName(Page.Request.PhysicalPath)方法二：string sPath = System.Web.HttpContext.Current.Request.MapPath(&quot;/&quot;) 方法三： string sPath = Page.Server.MapPath(&quot;/&quot;);我推荐使用第二种有时候可能出现找不到类的情况，请引用System.Web.dll<a href="http://www.cnblogs.com/htynkn/archive/2011/10/30/2229170.html" class="c_b_p_desc_readmore">阅读全文</a></div></div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2011-10-30 12:03 夜明的孤行灯 阅读(357) 评论(3)  <a href ="http://i.cnblogs.com/EditPosts.aspx?postid=2229170" rel="nofollow">编辑</a></div>
+			<div class="clear"></div>
+		<div id="homepage1_HomePageDays_ctl00_DayList_BottomPager" class="topicListFooter"><a href="/htynkn/default.html?page=5&amp;OnlyTitle=1">仅列出标题</a><div class="pager">
+	共5页:&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=4">上一页</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=1">1</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=2">2</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=3">3</a>&nbsp;<a href="http://www.cnblogs.com/htynkn/default.html?page=4">4</a>&nbsp;5&nbsp;
+</div></div>
+</div>
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+
+<!--done-->
+<div class="newsItem">
+<h3 class="catListTitle">公告</h3>
+	<div id="blog-news"></div><script type="text/javascript">loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script type="text/javascript">loadBlogDefaultCalendar();</script>
+
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div><script type="text/javascript">loadBlogSideColumn();</script>
+			</div>
+
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+
+<!--done-->
+Copyright &copy;2014 夜明的孤行灯
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+<!--PageEndHtml Block Begin-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F813fdd999bef0f68fc9d5a0145973e71' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {
+data_track_clickback:'true',
+shareImg:{
+        "showType":"ALL",
+"divname":"cnblogs_post_body"
+}
+};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jiathis_r.js?move=0&amp;uid=1542415" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<div class="returnTop" title="嗖的就上去了！">
+  <span class="s"></span>
+  <span class="b"></span>
+  返回顶部
+</div>
+<style>
+.returnTop {
+    position: fixed;
+    _position: absolute;
+    right: 20px;
+    bottom: 40px;
+    _bottom: auto;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2E5FB7;
+    border-radius:4px;
+    background: #fff;
+    box-shadow: 0 0 5px #F5F5F5;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.returnTop .s {
+    position: absolute;
+    top: -2px;
+    _top: -20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-color: transparent transparent #2E65B7;
+    border-style: dashed dashed solid;
+}
+.returnTop .b {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    height: 12px;
+    width: 8px;
+    background: #2E5FB7;
+}
+</style>
+<script>
+$(function(){
+  // 给 window 对象绑定 scroll 事件
+  $(window).bind("scroll", function(){
+
+      // 获取网页文档对象滚动条的垂直偏移
+      var scrollTopNum = $(document).scrollTop(),
+          // 获取浏览器当前窗口的高度
+          winHeight = $(window).height(),
+          returnTop = $("div.returnTop");
+
+      // 滚动条的垂直偏移大于 0 时显示，反之隐藏
+      (scrollTopNum > 0) ? returnTop.fadeIn("fast") : returnTop.fadeOut("fast");
+
+      // 给 IE6 定位
+      if (!-[1,]&&!window.XMLHttpRequest) {
+          returnTop.css("top", scrollTopNum + winHeight - 200);
+      }
+
+  });
+
+  // 点击按钮后，滚动条的垂直方向的值逐渐变为0，也就是滑动向上的效果
+  $("div.returnTop").click(function() {
+      $("html, body").animate({ scrollTop: 0 }, 100);
+  });
+
+});
+</script>
+<!--PageEndHtml Block End-->
+</body>
+</html>

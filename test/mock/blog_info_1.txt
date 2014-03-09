@@ -1,0 +1,40 @@
+<div id="BlogPostCategory">分类: <a href='http://www.cnblogs.com/htynkn/category/350183.html'>其他</a></div>
+<div id="EntryTag">标签: <a href="http://www.cnblogs.com/htynkn/tag/Gradle/">Gradle</a>, <a href="http://www.cnblogs.com/htynkn/tag/SAE/">SAE</a></div>
+<div id="green_channel">
+绿色通道：
+<a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(cb_entryId,cb_blogId,1);green_channel_success(this,'谢谢推荐！');">好文要顶</a>
+<a id="green_channel_follow" onclick="c_follow();" href="javascript:void(0);">关注我</a>
+<a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);" >收藏该文</a><a id="green_channel_contact" href="http://space.cnblogs.com/msg/send/%e5%a4%9c%e6%98%8e%e7%9a%84%e5%ad%a4%e8%a1%8c%e7%81%af" target="_blank">与我联系</a>
+<a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="http://static.cnblogs.com/images/icon_weibo_24.png" alt="" /></a>
+</div>
+<div id="digg_block">
+<div id="author_profile">
+<div id="author_profile_info" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/htynkn/" target="_blank"><img src="http://pic.cnitblog.com/face/u267034.jpg?id=20232637" class="author_avatar" alt=""/></a>
+<div id="author_profile_detail" class="author_profile_info">
+<a href="http://home.cnblogs.com/u/htynkn/">夜明的孤行灯</a><br/>
+<a href="http://home.cnblogs.com/u/htynkn/followees">关注 - 6</a><br/>
+<a href="http://home.cnblogs.com/u/htynkn/followers">粉丝 - 273</a>
+</div>
+</div>
+<div class="clear"></div>
+<div id="author_profile_honor"></div>
+<div id="author_profile_follow">
+<a href="javascript:void(0);" onclick="c_follow();return false;">+加关注</a>
+</div>
+</div>
+<div id="div_digg">
+	<div class="diggit" onclick="votePost(cb_entryId,'Digg')">
+		<span class="diggnum" id="digg_count">0</span>
+	</div>
+	<div class="buryit" onclick="votePost(cb_entryId,'Bury')">
+		<span class="burynum" id="bury_count">0</span>
+	</div>
+	<div class="clear"></div>
+	<div class="diggword" id="digg_tips">
+    (请您对文章做出评价)
+    </div>
+</div>
+<script type="text/javascript">
+    currentDiggType = 0;
+</script>

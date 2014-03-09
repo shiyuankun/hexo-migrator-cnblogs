@@ -1,15 +1,15 @@
 require('should');
 
-var CnBlogs = require("../lib/CnBlogs").CnBlogs,
-    mockRequest = require('./mock/mockRequest').mockRequest();
+var proxyquire = require('proxyquire'),
+    mockRequest = require('./mock/mockRequest').mockRequest(),
+    mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}).helper();
 
-//var request = require('request');
+var CnBlogs = proxyquire("../lib/CnBlogs", {request: mockRequest, helper: mockHelper}).CnBlogs;
 
 describe('cnblogs_test', function () {
     var cnblogs;
     beforeEach(function (done) {
         cnblogs = new CnBlogs();
-        cnblogs.setRequest(mockRequest);
         done();
     });
 

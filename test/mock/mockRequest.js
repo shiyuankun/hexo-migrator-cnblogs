@@ -25,6 +25,14 @@ exports.mockRequest = function () {
             else {
                 callback('no fit request');
             }
+        },
+        post: function (url, options, callback) {
+            if (url === 'http://www.cnblogs.com/mvc/blog/BlogPostInfo.aspx') {
+                fs.readFile('test/mock/blog_info_1.txt', function (err, data) {
+                    var response = {statusCode: 404, body: data};
+                    callback(null, response);
+                });
+            }
         }
     };
 };

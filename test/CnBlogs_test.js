@@ -45,6 +45,7 @@ describe('cnblogs_test', function () {
         cnblogs.fetchAndTransform('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html', function (err, result) {
             result.title.should.equal('使用Gradle自动发布Java Web到SAE');
             result.date.should.equal('2014-01-17 11:59:00');
+            result.categorys[0].should.equal('其他');
             done();
         });
     });

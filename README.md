@@ -21,5 +21,9 @@ Add unit tests for any new or changed functionality. Lint and test your code usi
 ## Release History
 still working
 
+## Status
+[![Build Status](https://travis-ci.org/htynkn/hexo-migrator-cnblogs.png?branch=master)](https://travis-ci.org/htynkn/hexo-migrator-cnblogs)
+[![Dependency Status](https://david-dm.org/htynkn/hexo-migrator-cnblogs.png?theme=shields.io)](https://david-dm.org/htynkn/hexo-migrator-cnblogs)
+
 ## License
 Copyright (c) 2014 Huang YunKun. Licensed under the MIT license.

@@ -12,6 +12,7 @@ extend.migrator.register('cnblogs', function (args) {
     } else {
         var cnblogs = new CnBlogs();
         cnblogs.setRequest(request);
+        cnblogs.setSource(hexo.source_dir + '_posts/');
         async.waterfall([function (callback) {
             console.log('Verifying username');
             cnblogs.checkUserExist(username, callback);
@@ -21,6 +22,24 @@ extend.migrator.register('cnblogs', function (args) {
         }, function (pageCount, callback) {
             console.log('Calculating the total post size');
             cnblogs.getAllPostLink(username, pageCount, callback);
+        }, function (results, callback) {
+            async.map(results, function (item, cb) {
+                cnblogs.fetchAndTransform(item, cb);
+            }, function (error, posts) {
+                if (error) {
+                    callback(error);
+                }
+                callback(null, posts);
+            });
+        }, function (posts, callback) {
+            async.map(posts, function (item, cb) {
+                cnblogs.savePostToHexo(item, cb);
+            }, function (error) {
+                if (error) {
+                    callback(error);
+                }
+                callback(null, posts.length);
+            });
         }], function (err, result) {
             if (err) {
                 throw err;

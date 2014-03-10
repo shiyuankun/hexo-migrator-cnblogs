@@ -12,7 +12,7 @@ describe('cnblogs_helper_test', function () {
             if (err) {
                 throw err;
             }
-            helper.getCategorysAndTags([], data.body, function (errpr, result) {
+            helper.fetchBlogInfoToGetCategorysAndTags([], data.body, function (errpr, result) {
                 if (errpr) {
                     throw errpr;
                 }
@@ -24,6 +24,6 @@ describe('cnblogs_helper_test', function () {
     });
 
     it('should_get_page_url_name', function () {
-        helper.getPageFileName('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html').should.equal('gradle_svn_sae');
+        helper.extractFriendlyFileNameFormPostUrl('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html').should.equal('gradle_svn_sae');
     });
 });

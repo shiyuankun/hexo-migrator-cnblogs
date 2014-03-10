@@ -19,13 +19,13 @@ extend.migrator.register('cnblogs', function (args) {
             cnblogs.checkUserExist(username, callback);
         }, function (verify, callback) {
             console.log('Getting total page size');
-            cnblogs.getPageCount(username, callback);
+            cnblogs.analyzePageCount(username, callback);
         }, function (pageCount, callback) {
             console.log('Calculating the total post size');
-            cnblogs.getAllPostLink(username, pageCount, callback);
+            cnblogs.acquireAllPostLinks(username, pageCount, callback);
         }, function (results, callback) {
             async.map(results, function (item, cb) {
-                cnblogs.fetchAndTransform(item, cb);
+                cnblogs.fetchBlogPostAndTransformToHexoPost(item, cb);
             }, function (error, posts) {
                 if (error) {
                     callback(error);
@@ -35,7 +35,7 @@ extend.migrator.register('cnblogs', function (args) {
         }, function (posts, callback) {
             async.map(posts, function (item, cb) {
                 console.log('Dealing with post:%s', item.title);
-                cnblogs.savePostToHexo(item, cb);
+                cnblogs.savePostToHexoFileSystem(item, cb);
             }, function (error) {
                 if (error) {
                     callback(error);

@@ -1,10 +1,10 @@
 require('should');
 
 var proxyquire = require('proxyquire'),
-    mockRequest = require('./mock/mockRequest').mockRequest(),
-    mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}).helper();
+    mockRequest = require('./mock/mockRequest').mockRequest();
 
-var CnBlogs = proxyquire("../lib/CnBlogs", {request: mockRequest, helper: mockHelper}).CnBlogs;
+var mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}),
+    CnBlogs = proxyquire("../lib/CnBlogs", {'request': mockRequest, '../lib/CnBlogsHelper': mockHelper}).CnBlogs;
 
 describe('cnblogs_test', function () {
     var cnblogs;
@@ -42,10 +42,10 @@ describe('cnblogs_test', function () {
     });
 
     it('can_fetch_and_transform_blog_to_hexo_post', function (done) {
-        cnblogs.fetchAndTransform('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html', function (err, result) {
-            result.title.should.equal('使用Gradle自动发布Java Web到SAE');
-            result.date.should.equal('2014-01-17 11:59:00');
-            result.categorys[0].should.equal('其他');
+        cnblogs.fetchAndTransform('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html', function (err, post) {
+            post.title.should.equal('使用Gradle自动发布Java Web到SAE');
+            post.date.should.equal('2014-01-17 11:59:00');
+            post.categorys[0].should.equal('其他');
             done();
         });
     });

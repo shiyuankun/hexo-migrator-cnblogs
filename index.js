@@ -11,8 +11,7 @@ extend.migrator.register('cnblogs', function (args) {
         console.log('\nUsage:hexo migrate cnblogs <username>\n\nMore info:https://github.com/htynkn/hexo-migrator-cnblogs/');
     } else {
         var cnblogs = new CnBlogs();
-        cnblogs.setRequest(request);
-        cnblogs.setSource(hexo.source_dir + '_posts/');
+        cnblogs.setSource(hexo.source_dir);
         cnblogs.setFile(hexo.util.file);
         async.waterfall([function (callback) {
             console.log('Verifying username');
@@ -34,7 +33,6 @@ extend.migrator.register('cnblogs', function (args) {
             });
         }, function (posts, callback) {
             async.map(posts, function (item, cb) {
-                console.log('Dealing with post:%s', item.title);
                 cnblogs.savePostToHexoFileSystem(item, cb);
             }, function (error) {
                 if (error) {

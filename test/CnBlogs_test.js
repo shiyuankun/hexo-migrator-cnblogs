@@ -42,6 +42,8 @@ describe('cnblogs_test', function () {
         });
     });
 
+
+
     it('can_fetch_and_transform_blog_to_hexo_post', function (done) {
         cnblogs.fetchBlogPostAndTransformToHexoPost('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html', function (err, post) {
             post.title.should.equal('使用Gradle自动发布Java Web到SAE');

@@ -11,7 +11,7 @@ The go to your hexo folder,and exec the following command:
 hexo migrate cnblogs <username>
 ```
 
-## How To Use
+Because of the image download,so sometimes you need wait and keep your network connection.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
@@ -19,7 +19,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-still working
+
+2014-03-16 v0.0.2 add image download
+2014-03-04 v0.0.1 project init
 
 ## Status
 [![Build Status](https://travis-ci.org/htynkn/hexo-migrator-cnblogs.png?branch=master)](https://travis-ci.org/htynkn/hexo-migrator-cnblogs)

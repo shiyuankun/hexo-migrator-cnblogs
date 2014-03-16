@@ -1,6 +1,6 @@
 {
   "name": "hexo-migrator-cnblogs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "cnblogs migrator plugin for Hexo",
   "homepage": "https://github.com/htynkn/hexo-migrator-cnblogs/",

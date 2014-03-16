@@ -23,7 +23,8 @@ extend.migrator.register('cnblogs', function (args) {
             console.log('Calculating the total post size');
             cnblogs.acquireAllPostLinks(username, pageCount, callback);
         }, function (results, callback) {
-            async.map(results, function (item, cb) {
+            async.mapLimit(results, 2, function (item, cb) {
+                console.log('Start deal with [%s]', item);
                 cnblogs.fetchBlogPostAndTransformToHexoPost(item, cb);
             }, function (error, posts) {
                 if (error) {
@@ -45,6 +46,7 @@ extend.migrator.register('cnblogs', function (args) {
                 throw err;
             }
             console.log('Migrate %s posts sucess.', result);
+            console.log('Because of the image download,please wait a moment.');
         });
     }
 });

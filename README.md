@@ -3,7 +3,9 @@
 cnblogs migrator plugin for Hexo
 
 ## How To Use
-Install the module with: `npm install hexo-migrator-cnblogs`
+Install the module with:
+
+`npm install hexo-migrator-cnblogs`
 
 The go to your hexo folder,and exec the following command:
 
@@ -13,6 +15,10 @@ hexo migrate cnblogs <username>
 
 Because of the image download,so sometimes you need wait and keep your network connection.
 
+The username is not the your login username in cnblogs but your blog name.
+
+Such as my blog url is "http://www.cnblogs.com/htynkn/",so the username is "htynkn".
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 
@@ -21,6 +27,7 @@ Add unit tests for any new or changed functionality. Lint and test your code usi
 ## Release History
 
 2014-03-16 v0.0.2 add image download
+
 2014-03-04 v0.0.1 project init
 
 ## Status

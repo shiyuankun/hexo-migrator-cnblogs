@@ -47,5 +47,6 @@
     },
     "scripts": {
         "test": "grunt"
-    }
+    },
+    "engine": "node >= 0.10.0"
 }

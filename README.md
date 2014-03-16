@@ -17,7 +17,7 @@ Because of the image download,so sometimes you need wait and keep your network c
 
 The username is not the your login username in cnblogs but your blog name.
 
-Such as my blog url is "http://www.cnblogs.com/htynkn/",so the username is "htynkn".
+Such as my blog url is `http://www.cnblogs.com/htynkn/`,so the username is `htynkn`.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.

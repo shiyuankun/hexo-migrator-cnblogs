@@ -1,51 +1,51 @@
 {
-  "name": "hexo-migrator-cnblogs",
-  "version": "0.0.2",
-  "main": "index.js",
-  "description": "cnblogs migrator plugin for Hexo",
-  "homepage": "https://github.com/htynkn/hexo-migrator-cnblogs/",
-  "bugs": "https://github.com/htynkn/hexo-migrator-cnblogs/issues",
-  "author": {
-    "name": "Huang YunKun",
-    "email": "htynkn@gmail.com",
-    "url": "http://htynkn.cnblogs.com/"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
+    "name": "hexo-migrator-cnblogs",
+    "version": "0.0.2",
+    "main": "index.js",
+    "description": "cnblogs migrator plugin for Hexo",
+    "homepage": "https://github.com/htynkn/hexo-migrator-cnblogs/",
+    "bugs": "https://github.com/htynkn/hexo-migrator-cnblogs/issues",
+    "author": {
+        "name": "Huang YunKun",
+        "email": "htynkn@gmail.com",
+        "url": "http://htynkn.cnblogs.com/"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/htynkn/hexo-migrator-cnblogs.git"
+    },
+    "keywords": [
+        "hexo",
+        "cnblogs"
+    ],
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.7.0",
+        "grunt-contrib-watch": "~0.5.0",
+        "load-grunt-tasks": "~0.2.0",
+        "time-grunt": "~0.2.0",
+        "jshint-stylish": "~0.1.3",
+        "grunt-mocha-test": "~0.9.0",
+        "mocha": "~1.17.0",
+        "should": "~3.1.0",
+        "proxyquire": "~0.5.0"
+    },
+    "dependencies": {
+        "underscore": "~1.6.0",
+        "async": "~0.2.10",
+        "moment": "~2.5.0",
+        "to-markdown": "~0.0.1",
+        "request": "~2.34.0",
+        "cheerio": "~0.13.0",
+        "xregexp": "~2.0.0",
+        "download": "~0.1.10",
+        "mkdirp": "~0.3.5"
+    },
+    "scripts": {
+        "test": "grunt"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/htynkn/hexo-migrator-cnblogs.git"
-  },
-  "keywords": [
-    "hexo",
-    "cnblogs"
-  ],
-  "devDependencies": {
-    "grunt-contrib-jshint": "~0.7.0",
-    "grunt-contrib-watch": "~0.5.0",
-    "load-grunt-tasks": "~0.2.0",
-    "time-grunt": "~0.2.0",
-    "jshint-stylish": "~0.1.3",
-    "grunt-mocha-test": "~0.9.0",
-    "mocha": "~1.17.0",
-    "should": "~3.1.0",
-    "proxyquire": "~0.5.0",
-    "mkdirp": "^0.3.5"
-  },
-  "dependencies": {
-    "underscore": "~1.6.0",
-    "async": "~0.2.10",
-    "moment": "~2.5.0",
-    "to-markdown": "~0.0.1",
-    "request": "~2.34.0",
-    "cheerio": "~0.13.0",
-    "xregexp": "~2.0.0",
-    "download": "^0.1.10"
-  },
-  "scripts": {
-    "test": "grunt"
-  }
 }

@@ -2,9 +2,8 @@ require('should');
 
 var proxyquire = require('proxyquire'),
     mockRequest = require('./mock/mockRequest').mockRequest(),
-    tmp = require('temporary');
-
-var mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}),
+    tmp = require('temporary'),
+    mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}),
     CnBlogs = proxyquire("../lib/CnBlogs", {'request': mockRequest, '../lib/CnBlogsHelper': mockHelper}).CnBlogs;
 
 describe('cnblogs_test', function () {

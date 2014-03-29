@@ -1,7 +1,8 @@
 require('should');
 
 var proxyquire = require('proxyquire'),
-    mockRequest = require('./mock/mockRequest').mockRequest();
+    mockRequest = require('./mock/mockRequest').mockRequest(),
+    tmp = require('temporary');
 
 var mockHelper = proxyquire('../lib/CnBlogsHelper', {request: mockRequest}),
     CnBlogs = proxyquire("../lib/CnBlogs", {'request': mockRequest, '../lib/CnBlogsHelper': mockHelper}).CnBlogs;
@@ -43,8 +44,9 @@ describe('cnblogs_test', function () {
     });
 
 
-
     it('can_fetch_and_transform_blog_to_hexo_post', function (done) {
+        var dir=new tmp.Dir();
+        cnblogs.setSource(dir.path);
         cnblogs.fetchBlogPostAndTransformToHexoPost('http://www.cnblogs.com/htynkn/p/gradle_svn_sae.html', function (err, post) {
             post.title.should.equal('使用Gradle自动发布Java Web到SAE');
             post.date.should.equal('2014-01-17 11:59:00');

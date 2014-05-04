@@ -1,8 +1,5 @@
 var extend = hexo.extend,
-    util = hexo.util,
-    _ = require('underscore'),
     async = require('async'),
-    request = require('request'),
     CnBlogs = require("./lib/CnBlogs").CnBlogs;
 
 extend.migrator.register('cnblogs', function (args) {

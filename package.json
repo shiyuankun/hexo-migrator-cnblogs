@@ -1,6 +1,6 @@
 {
   "name": "hexo-migrator-cnblogs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "description": "cnblogs migrator plugin for Hexo",
   "homepage": "https://github.com/htynkn/hexo-migrator-cnblogs/",
@@ -24,9 +24,6 @@
     "cnblogs"
   ],
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-watch": "~0.6.0",
-    "grunt-mocha-test": "~0.10.0",
     "gulp": "~3.6.2",
     "gulp-jshint": "~1.5.5",
     "gulp-mocha": "~0.4.1",
@@ -34,21 +31,21 @@
     "jshint-stylish": "~0.1.3",
     "load-grunt-tasks": "~0.4.0",
     "mocha": "~1.18.0",
-    "proxyquire": "~0.6.0",
+    "proxyquire": "~1.0.0",
     "should": "~3.3.0",
     "streamqueue": "0.0.7",
     "temporary": "0.0.8",
     "time-grunt": "~0.3.0"
   },
   "dependencies": {
-    "underscore": "~1.6.0",
-    "async": "~0.7.0",
-    "moment": "~2.6.0",
+    "underscore": "~1.7.0",
+    "async": "~0.9.0",
+    "moment": "~2.8.0",
     "to-markdown": "0.0.1",
-    "request": "~2.34.0",
+    "request": "~2.44.0",
     "cheerio": "~0.13.0",
     "xregexp": "~2.0.0",
-    "download": "~0.1.10",
+    "download": "~1.0.2",
     "mkdirp": "~0.3.5"
   },
   "scripts": {

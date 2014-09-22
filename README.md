@@ -25,6 +25,8 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+2014-09-22 v0.0.4 update dependency version
+
 2014-03-29 v0.0.3 fix *categories* error
 
 2014-03-16 v0.0.2 add image download

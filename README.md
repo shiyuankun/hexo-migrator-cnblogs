@@ -5,6 +5,7 @@ cnblogs migrator plugin for Hexo
 ## How To Use
 Install the module with:
 
+`npm install hexo-fs`
 `npm install hexo-migrator-cnblogs`
 
 The go to your hexo folder,and exec the following command:
@@ -25,6 +26,8 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+2015-05-11 v0.0.5 update cnblogs layout and compatible with hexo 3.0.1 which removes hexo.util.file
+
 2014-09-22 v0.0.4 update dependency version
 
 2014-03-29 v0.0.3 fix *categories* error
@@ -39,4 +42,4 @@ Add unit tests for any new or changed functionality. Lint and test your code usi
 [![DevDependency Status](https://david-dm.org/htynkn/hexo-migrator-cnblogs/dev-status.png?theme=shields.io)](https://david-dm.org/htynkn/hexo-migrator-cnblogs#info=devDependencies)
 
 ## License
-Copyright (c) 2014 Huang YunKun. Licensed under the MIT license.
+Copyright (c) 2015 Huang YunKun. Licensed under the MIT license.

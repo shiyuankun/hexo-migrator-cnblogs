@@ -6,6 +6,7 @@ cnblogs migrator plugin for Hexo
 Install the module with:
 
 `npm install hexo-fs`
+
 `npm install hexo-migrator-cnblogs`
 
 The go to your hexo folder,and exec the following command:

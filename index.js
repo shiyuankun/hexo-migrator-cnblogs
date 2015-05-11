@@ -1,5 +1,6 @@
 var extend = hexo.extend,
     async = require('async'),
+    hexfs = require('hexo-fs'),
     CnBlogs = require("./lib/CnBlogs").CnBlogs;
 
 extend.migrator.register('cnblogs', function (args) {
@@ -9,7 +10,7 @@ extend.migrator.register('cnblogs', function (args) {
     } else {
         var cnblogs = new CnBlogs();
         cnblogs.setSource(hexo.source_dir);
-        cnblogs.setFile(hexo.util.file);
+        cnblogs.setFile(hexfs);
         async.waterfall([function (callback) {
             console.log('Verifying username');
             cnblogs.checkUserExist(username, callback);

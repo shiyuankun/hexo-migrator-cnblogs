@@ -42,5 +42,9 @@ Add unit tests for any new or changed functionality. Lint and test your code usi
 [![Dependency Status](https://david-dm.org/htynkn/hexo-migrator-cnblogs.png?theme=shields.io)](https://david-dm.org/htynkn/hexo-migrator-cnblogs)
 [![DevDependency Status](https://david-dm.org/htynkn/hexo-migrator-cnblogs/dev-status.png?theme=shields.io)](https://david-dm.org/htynkn/hexo-migrator-cnblogs#info=devDependencies)
 
+
+## Contributor
+Shi Yuankun 
+
 ## License
 Copyright (c) 2015 Huang YunKun. Licensed under the MIT license.
